@@ -1,7 +1,7 @@
 .deck-container {
   /*font-family: "小塚ゴシック Pro", sans-serif;*/
   /*font-family: 小塚ゴシック Pro;*/
-  font-family: "01フロップデザイン", "Gill Sans MT", Calibri, sans-serif;
+  font-family: ""01フロップデザイン", "Gill Sans MT", Calibri, sans-serif";
 
   font-size: 1.75em;
   color: #aaa;
@@ -10,18 +10,58 @@
 .deck-container .slide {
   background: #fff; /* スライドの背景 */
 }
-.deck-container .slide h1 {
+
+section.test{
+font-size:150%;
+font-weight:bold;
+
+}
+
+
+.deck-container .slide h1{
   color: #000; /* 文字色 */
+  font-size:140%;/*文字サイズ*/
   font-weight: normal;
   font-weight: 100;
+  top:200px;
   /*text-shadow: 0 0 50px #0af, 0 0 3px #fff;*/
 }
+
+ul.ula{
+  text-align:left;
+  color:#000;
+  font-size:90%;
+  list-style-type: none;
+}
+
+ol.ola{
+  text-align:left;
+  color:black;
+  font-size:90%;
+}
+
+ul.ula li.lia{
+  list-style-type: none;
+  color: #000;
+}
+
+div.center{
+  margin-left: 200px;
+}
+
+div.b4{
+  color: black;
+  float:left;
+  margin-top:400px;
+}
+
+
 .deck-container .slide h2 {
-  color: #af0;
+  color: black;
   border-bottom-color: #ccc;
   font-weight: normal;
   font-weight: 100;
-  text-shadow: 0 0 15px #af0, 0 0 2px #fff;
+  /*text-shadow: 0 0 15px #af0, 0 0 2px #fff;*/
   border-bottom: 1px solid #333;
 }
 .deck-container .slide h3 {

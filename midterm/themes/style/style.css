@@ -1,0 +1,26 @@
+.deck-container .slide h1 {
+  color: #000; /* 文字色 */
+  font-weight: normal;
+  font-weight: 100;
+  /*text-shadow: 0 0 50px #0af, 0 0 3px #fff;*/
+}
+.deck-container .slide h2 {
+  color: #af0;
+  border-bottom-color: #ccc;
+  font-weight: normal;
+  font-weight: 100;
+  text-shadow: 0 0 15px #af0, 0 0 2px #fff;
+  border-bottom: 1px solid #333;
+}
+.deck-container .slide h3 {
+  color: #000;
+  font-weight: normal;
+  font-weight: 100;
+  text-shadow: 0 0 10px #fff, 0 0 2px #fff;
+}
+
+h1.title{
+  font-size:10px;
+  font-weight:bold;
+  color:black;
+}

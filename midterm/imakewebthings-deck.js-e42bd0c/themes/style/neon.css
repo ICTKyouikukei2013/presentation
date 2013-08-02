@@ -1,5 +1,5 @@
 .deck-container {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: 'ヒラギノ角ゴ Pro W3',"Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 1.75em;
   color: #aaa;
   background: #000;
@@ -11,7 +11,7 @@
   color: #0af;
   font-weight: normal;
   font-weight: 100;
-  text-shadow: 0 0 50px #0af, 0 0 3px #fff;
+  text-shadow: 0 0 10px #0af, 0 0 3px #fff;
 }
 .deck-container .slide h2 {
   color: #af0;
