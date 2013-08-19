@@ -2,13 +2,15 @@
   color: #000; /* 文字色 */
   font-weight: normal;
   font-weight: 100;
+  font-size: large;
   /*text-shadow: 0 0 50px #0af, 0 0 3px #fff;*/
 }
 .deck-container .slide h2 {
   color: #af0;
   border-bottom-color: #ccc;
   font-weight: normal;
-  font-weight: 100;
+  font-weight: 100px;
+  font-size: large;
   text-shadow: 0 0 15px #af0, 0 0 2px #fff;
   border-bottom: 1px solid #333;
 }
