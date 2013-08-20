@@ -2,7 +2,7 @@
   color: #000; /* 文字色 */
   font-weight: normal;
   font-weight: 100;
-  font-size: large;
+  font-size: 200px;
   /*text-shadow: 0 0 50px #0af, 0 0 3px #fff;*/
 }
 .deck-container .slide h2 {
