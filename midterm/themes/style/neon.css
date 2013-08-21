@@ -20,7 +20,7 @@ font-weight:bold;
 
 .deck-container .slide h1{
   color: #000; /* 文字色 */
-  font-size:140%;/*文字サイズ*/
+  font-size:200%;/*文字サイズ*/
   font-weight: normal;
   font-weight: 100;
   top:200px;
@@ -30,7 +30,7 @@ font-weight:bold;
 ul.ula{
   text-align:left;
   color:#000;
-  font-size:90%;
+  font-size:150%;
   list-style-type: none;
 }
 
@@ -43,16 +43,30 @@ ol.ola{
 ul.ula li.lia{
   list-style-type: none;
   color: #000;
+  font-size: 70%
+}
+
+ul.agenda{
+  text-align:left;
+  color:#000;
+  font-size:90%;
+  list-style-type: none;
+}
+
+ul.agenda li.lia{
+  color:#000;
+  list-style-type: none;
 }
 
 div.center{
-  margin-left: 200px;
+  margin-right: 150px;
+  font-size: 20px;
 }
 
 div.b4{
   color: black;
-  float:left;
-  margin-top:300px;
+  float:right;
+  margin-top:350px;
   font-size: 20px;
 }
 
@@ -111,7 +125,7 @@ div.b4{
   text-decoration: underline;
 }
 .deck-container .deck-prev-link, .deck-container .deck-next-link {
-  background: #000; /* ページ遷移用ボタン色 */ 
+  background: #ddd; /* ページ遷移用ボタン色 */ 
   /*text-shadow: 0 0 3px #fff; */
 }
 .deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
@@ -123,7 +137,7 @@ div.b4{
 .boxshadow .deck-container .deck-prev-link:hover, .boxshadow .deck-container .deck-prev-link:focus, .boxshadow .deck-container .deck-next-link:hover, .boxshadow .deck-container .deck-next-link:focus {
   -webkit-box-shadow: 0 0 20px #000, 0 0 5px #fff;
   -moz-box-shadow: 0 0 20px #000, 0 0 5px #fff;
-  box-shadow: 0 0 20px #000, 0 0 5px #fff;
+  box-shadow: 0 0 20px #ddd, 0 0 5px #fff;
   /*0 0 20px #xxx, 0 0 5px #fff; xxxの値を変化させると矢印の後光の色が変わる*/
 }
 .deck-container > .slide .deck-before, .deck-container > .slide .deck-previous {
