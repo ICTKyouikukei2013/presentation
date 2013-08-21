@@ -35,30 +35,36 @@
 	<h1>高度ICT演習向け<br>eポートフォリオシステムの構築</h1>
 	<div class = "center">
 		<div class="b4">
-			B4
 			<ul class="ula">
-				<li class="lia">中野 佑</li>
-				<li class="lia">山本 賢人</li>
-				<li class="lia">長崎 洸祐</li>
+				<li class="lia">B2</li>
+				<li class="lia">&emsp;内山 武尊</li>
+				<li class="lia">&emsp;川口 拓郎</li>
+				<li class="lia">&emsp;藤原 拓郎</li>		
+				<li class="lia">&emsp;水尻 裕人</li>
+				<li class="lia">&emsp;諸原 聖</li>
+			</ul>
+		</div>		
+		<div class="b4">
+			<ul class="ula">
+				<li class="lia">B3</li>
+				<li class="lia">&emsp;赤木 勇極</li>
+				<li class="lia">&emsp;菅野 久樹</li>
+				<li class="lia">&emsp;佐藤 祐磨</li>
+				<li class="lia">&emsp;中田 友貴</li>
 			</ul>
 		</div>
 		<div class="b4">
-			B3
 			<ul class="ula">
-				<li class="lia">赤木 勇極</li>
-				<li class="lia">菅野 久樹</li>
-				<li class="lia">佐藤 祐磨</li>
-				<li class="lia">中田 友貴</li>
+				<li class="lia">B4</li>
+				<li class="lia">◎中野 佑</li>
+				<li class="lia">&emsp;長崎 洸祐</li>
+				<li class="lia">&emsp;山本 賢人</li>
 			</ul>
 		</div>
 		<div class="b4">
-			B2
 			<ul class="ula">
-				<li class="lia">内山 武尊</li>
-				<li class="lia">川口 拓郎</li>
-				<li class="lia">藤原 拓郎</li>		
-				<li class="lia">水尻 裕人</li>
-				<li class="lia">諸原 聖</li>
+				<li class="lia">教員</li>
+				<li class="lia">&emsp;神谷 年洋</li>
 			</ul>
 		</div>
 	</div>
@@ -69,21 +75,18 @@
 	<h2>目次</h2>
 	<ul class="agenda">
 		<li>背景</li>
-		<li>はこだて未来大学の現状</li>
 		<li>問題</li>
 		<li>教育系の目的</li>
 		<li>eポートフォリオシステム</li>
-		<li>ヒアリング</li>
 		<li>システムの全体像</li>
-		<li>使用技術の選定</li>
-		<li>プロジェクトの進行方法</li>
 		<li>課題</li>
 		<li>まとめ</li>
 	</ul>
+	フォントの統一
 </section>
-
+<!--
 <section class="slide">
-	<h2>背景</h2>
+	<h2>背景(いらない)</h2>
 	<ul class="ula">
 		<li>受動的な学習より能動的な学習を重視する教育観へ変化し、学生の学習活動に注目が行くようになった</li>
 		<li>学習の成果を質する証拠が必要になった</li>
@@ -110,14 +113,14 @@
 				</tr>
 			</table>
 		</li>
-		<!-- </a> <li><img src="img/image3004.png" align="center" width="90%" height="90%"></li> -->
+		</a> <li><img src="img/image3004.png" align="center" width="90%" height="90%"></li>
 	</ul>
 </section>
-
+-->
 <section class="slide">
-	<h2>はこだて未来大学の現状(1/2)</h2>
+	<h2>背景(1/2)</h2>
 	<ul class="ula">
-		<li>はこだて未来大学の能動的な学習にPBL(Project-Based Learning)がある</li>
+		<li>はこだて未来大学の能動的な学習に<br>PBL(Project-Based Learning)がある</li>
 		<ul>
 			<li>プロジェクト活動を通して課題を解決する教育手法</li>
 			<li>学習者の自律性や自主性に重点を置く</li>
@@ -128,17 +131,17 @@
 </section>
 
 <section class="slide">
-	<h2>はこだて未来大学の現状(2/2)</h2>
+	<h2>背景(2/2)</h2>
 	<ul class="ula">
 		<li>プロジェクト学習</li>
 		<ul>
-			<li>必修授業で学部3年次の学生全員が参加して行われる</li>
-			<li>学部やコースに関係なく1つのチームを作り1年かけて問題を解決する</li>
+			<li>必修科目で学部3年が履修する</li>
+			<li>学部やコースに関係なくチームを編成して1年かけて問題を解決する</li>
 		</ul>
 		<li>高度ICT演習</li>
 		<ul>
-			<li>システム・ソフトウェアの開発を主に行う</li>
-			<li>B2からM2までの学生が参加し互いにスキルアップを図る</li>
+			<li>単位が出ないので有志の学生が参加する</li>
+			<li>学部2年から修士2年までの学生が参加し互いにスキルアップを図る</li>
 		</ul>
 	</ul>
 </section>
@@ -146,9 +149,11 @@
 <section class="slide">
 	<h2>問題</h2>
 	<ul class="ula">
-		<li>能動的な学習の振り返りをサポートするシステムとしてHOPEやMoodleが導入されている</li>
-		<li>しかし、能動的な学習の振り返りをサポートするシステムがこの大学にはない</li>
-
+		<li>MoodleというCMS<sup>*</sup>が導入されている
+			<br>→学生に着目したサポートはしていない</li>
+		<li>能動的な学習を支援するシステムがない</li>
+		<div>PDCA図</div>
+		<div style="font-size: 30px;" ><sup>*</sup>CMS : Course Management System</div>
 	</ul>
 </section>
 
@@ -156,23 +161,22 @@
 	<h2>教育系の目的</h2>
 	<ul class="ula">
 		<li>高度ICT演習における学習の振り返りをサポートする</li>
-		<li>そのための手段としてeポートフォリオシステムの開発を行う</li>
-		<li>高度ICT演習の担当の先生からヒアリングを行う</li>
+		<li>高度ICT演習担当の先生と学生からシステムの要件を集めてまとめる</li>
+		<li>ポートフォリオシステムの開発を行う</li>
 	</ul>
 </section>
 
 <section class="slide">
 	<h2>eポートフォリオシステム</h2>
 	<ul class="ula">
-		<li>ポートフォリオとは学習の質を証明することができる紙媒体</li>
-		<li>しかし</li>
+		<li>紙のポートフォリオと比較して</li>
 		<ul>
-			<li>ポートフォリオの管理に場所をとる</li>
-			<li>元が紙なので劣化する</li>
+			<li>学習者の学習活動の可視化が得意</li>
+			<li>ネットワークを介した相互利用が可能</li>
+			<li>紙のポートフォリオに比べて維持管理<br>が容易</li>
 		</ul>
-		<li><img src="img/portfolio_chart1.jpg" width="300" height="300" align="right"></li>
-		<li>この問題を解決するために電子化したものがeポートフォリオである</li>
-		<li>導入例　金沢工業大学</li>
+		<li>導入例</li>
+		<li>金沢工業大学 KITポートフォリオシステム など</li>
 	</ul>
 </section>
 
@@ -190,11 +194,13 @@
 </section>
 
 <section class="slide">
-	<h2>システムの全体像</h2>
-	<ul class="ula">
-		<li>現在ポートフォリオの作成、成果物の蓄積、ゴール設定ができるようになっている</li>
-		どんな感じで書けばいいのかわからない
-	</ul>
+	<h2>システムの利用図</h2>
+	<img src="img/usecase_zu_outline-1.png">
+</section>
+
+<section class="slide">
+	<h2>システムの構成図</h2>
+	<img src="img/system_zu_outline.png">
 </section>
 
 <section class="slide">
@@ -207,19 +213,14 @@
 		</ul>
 		<li>今後の拡張性やを考えてPloneやMaharaなどの既存のシステムを使わず、１から作ることになった</li>
 	</ul>
-</section>
-
-<section class="slide">
-	<h2>プロジェクトの進行方法</h2>
-	<ul class="ula">
-		<li>gitを使った分散開発</li>
-	</ul>
+	システム、フレームワークでスライド1枚
 </section>
 
 <section class="slide">
 	<h2>学び</h2>
 	<ul class="ula">
 		<li>グループ全体で１つにまとめるか学年に分けるか、それとも個人個人書くか</li>
+		KPT
 	</ul>
 </section>
 

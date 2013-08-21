@@ -49,7 +49,7 @@ ul.ula li.lia{
 ul.agenda{
   text-align:left;
   color:#000;
-  font-size:90%;
+  font-size:150%;
   list-style-type: none;
 }
 
@@ -59,7 +59,7 @@ ul.agenda li.lia{
 }
 
 div.center{
-  margin-right: 150px;
+  margin-right: 50px;
   font-size: 20px;
 }
 
@@ -67,6 +67,7 @@ div.b4{
   color: black;
   float:right;
   margin-top:350px;
+  margin-left: -20px;
   font-size: 20px;
 }
 
@@ -179,4 +180,8 @@ div.b4{
   -webkit-box-shadow: 0 0 20px #f0a, 0 0 5px #fff;
   -moz-box-shadow: 0 0 20px #f0a, 0 0 5px #fff;
   box-shadow: 0 0 20px #f0a, 0 0 5px #fff;
+}
+
+.slide .hoge{
+  line-height: 50%;
 }
