@@ -37,25 +37,29 @@
 		<div class="b4">
 			B4
 			<ul class="ula">
-			<li class="lia">中野　佑</li>
-			<li class="lia">山本　賢人</li>
+				<li class="lia">中野 佑</li>
+				<li class="lia">山本 賢人</li>
+				<li class="lia">長崎 洸祐</li>
+			</ul>
 		</div>
 		<div class="b4">
 			B3
 			<ul class="ula">
-			<li class="lia">赤木　勇極</li>
-			<li class="lia">菅野　久樹</li>
-			<li class="lia">佐藤　祐磨</li>
-			<li class="lia">中田　友貴</li>
+				<li class="lia">赤木 勇極</li>
+				<li class="lia">菅野 久樹</li>
+				<li class="lia">佐藤 祐磨</li>
+				<li class="lia">中田 友貴</li>
+			</ul>
 		</div>
 		<div class="b4">
 			B2
 			<ul class="ula">
-			<li class="lia">内山武尊</li>
-			<li class="lia">川口拓郎</li>
-			<li class="lia">藤原</li>		
-			<li class="lia">水尻裕人</li>
-			<li class="lia">諸原</li>
+				<li class="lia">内山 武尊</li>
+				<li class="lia">川口 拓郎</li>
+				<li class="lia">藤原 拓郎</li>		
+				<li class="lia">水尻 裕人</li>
+				<li class="lia">諸原 聖</li>
+			</ul>
 		</div>
 	</div>
 
@@ -63,7 +67,7 @@
 
 <section class="slide">
 	<h2>目次</h2>
-	<ul class="ula">
+	<ul class="agenda">
 		<li>背景</li>
 		<li>はこだて未来大学の現状</li>
 		<li>問題</li>
@@ -73,6 +77,7 @@
 		<li>システムの全体像</li>
 		<li>使用技術の選定</li>
 		<li>プロジェクトの進行方法</li>
+		<li>課題</li>
 		<li>まとめ</li>
 	</ul>
 </section>
@@ -80,18 +85,60 @@
 <section class="slide">
 	<h2>背景</h2>
 	<ul class="ula">
-		<li>学力重視の教育観から学習成果を重視する教育観に変化して、学生の学習活動に注目が行くようになった</li>
-		<li>学習の成果を証明する証拠が必要になった</li>
+		<li>受動的な学習より能動的な学習を重視する教育観へ変化し、学生の学習活動に注目が行くようになった</li>
+		<li>学習の成果を質する証拠が必要になった</li>
+		<li>
+			<table>
+				<caption>学習観の変化</caption>
+				<tr align="center">
+					<th>受動的な学習</th>
+					<th>能動的な学習</th>
+				</tr>
+				<tr>
+					<th>
+						<ul>
+							<li>先生が学生に教える</li>
+							<li>学生が自ら学ぶ</li>
+						</ul>
+					</th>
+					<th>
+						<ul>
+							<li>テストによる評価</li>
+							<li>学習成果物を評価</li>
+						</ul>
+					</th>					
+				</tr>
+			</table>
+		</li>
+		<!-- </a> <li><img src="img/image3004.png" align="center" width="90%" height="90%"></li> -->
 	</ul>
 </section>
 
 <section class="slide">
-	<h2>はこだて未来大学の現状</h2>
+	<h2>はこだて未来大学の現状(1/2)</h2>
 	<ul class="ula">
-		<li>はこだて未来大学の講義は学習者から見て２つに分けることができる</li>
+		<li>はこだて未来大学の能動的な学習にPBL(Project-Based Learning)がある</li>
 		<ul>
-			<li>教育者が学習者に対して知識や技能を教える受動的な学習</li>
-			<li>PBL(Problem Based Learning)のように学習者が自ら知識や技能を身につけいていく能動的な学習</li>
+			<li>プロジェクト活動を通して課題を解決する教育手法</li>
+			<li>学習者の自律性や自主性に重点を置く</li>
+			<li>システム・ソフトウェア開発の基礎となる基礎やスキルを習得できる</li>
+			<li>社会にある解のない問題に対応する方法を身につけられる</li>
+		</ul>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>はこだて未来大学の現状(2/2)</h2>
+	<ul class="ula">
+		<li>プロジェクト学習</li>
+		<ul>
+			<li>必修授業で学部3年次の学生全員が参加して行われる</li>
+			<li>学部やコースに関係なく1つのチームを作り1年かけて問題を解決する</li>
+		</ul>
+		<li>高度ICT演習</li>
+		<ul>
+			<li>システム・ソフトウェアの開発を主に行う</li>
+			<li>B2からM2までの学生が参加し互いにスキルアップを図る</li>
 		</ul>
 	</ul>
 </section>
@@ -99,8 +146,9 @@
 <section class="slide">
 	<h2>問題</h2>
 	<ul class="ula">
-		<li>能動的な学習の振り返りをサポートするシステムとしてHOMEやMoodleが導入されている</li>
+		<li>能動的な学習の振り返りをサポートするシステムとしてHOPEやMoodleが導入されている</li>
 		<li>しかし、能動的な学習の振り返りをサポートするシステムがこの大学にはない</li>
+
 	</ul>
 </section>
 
@@ -109,6 +157,7 @@
 	<ul class="ula">
 		<li>高度ICT演習における学習の振り返りをサポートする</li>
 		<li>そのための手段としてeポートフォリオシステムの開発を行う</li>
+		<li>高度ICT演習の担当の先生からヒアリングを行う</li>
 	</ul>
 </section>
 
@@ -119,10 +168,10 @@
 		<li>しかし</li>
 		<ul>
 			<li>ポートフォリオの管理に場所をとる</li>
-			<li>外部からのポーロフォリオの閲覧が難しい</li>
+			<li>元が紙なので劣化する</li>
 		</ul>
+		<li><img src="img/portfolio_chart1.jpg" width="300" height="300" align="right"></li>
 		<li>この問題を解決するために電子化したものがeポートフォリオである</li>
-		<li><img src="img/portfolio_chart1.jpg" width="200" height="200" align="right"></li>
 		<li>導入例　金沢工業大学</li>
 	</ul>
 </section>
