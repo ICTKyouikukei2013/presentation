@@ -32,6 +32,7 @@ ul.ula{
   color:#000;
   font-size:150%;
   list-style-type: none;
+  margin-top: -1em;
 }
 
 ol.ola{
@@ -49,8 +50,9 @@ ul.ula li.lia{
 ul.agenda{
   text-align:left;
   color:#000;
-  font-size:90%;
+  font-size:150%;
   list-style-type: none;
+  margin-top: -1em;
 }
 
 ul.agenda li.lia{
