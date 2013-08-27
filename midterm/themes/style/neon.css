@@ -24,38 +24,55 @@ font-weight:bold;
   font-weight: normal;
   font-weight: 100;
   top:200px;
+  color: #3e3a39;
   /*text-shadow: 0 0 50px #0af, 0 0 3px #fff;*/
 }
 
 ul.ula{
   text-align:left;
-  color:#000;
+  color: #3e3a39;
   font-size:150%;
   list-style-type: none;
+  margin-top: -1em;
 }
 
 ol.ola{
   text-align:left;
-  color:black;
+  color: #3e3a39;;
   font-size:90%;
 }
 
 ul.ula li.lia{
   list-style-type: none;
-  color: #000;
+  color: #3e3a39;
   font-size: 70%
 }
 
 ul.agenda{
   text-align:left;
-  color:#000;
-  font-size:90%;
+  color: #3e3a39;
+  font-size:150%;
   list-style-type: none;
+  margin-top: -1em;
 }
 
 ul.agenda li.lia{
-  color:#000;
+  color: #3e3a39;
   list-style-type: none;
+}
+
+ul.meibo{
+  text-align:left;
+  color: #3e3a39;
+  font-size:150%;
+  list-style-type: none;
+  margin-top: -1em;
+}
+
+ul.meibo li.lia{
+  list-style-type: none;
+  color: #3e3a39;
+  font-size: 70%
 }
 
 div.center{
@@ -64,7 +81,6 @@ div.center{
 }
 
 div.b4{
-  color: black;
   float:right;
   margin-top:350px;
   font-size: 20px;
