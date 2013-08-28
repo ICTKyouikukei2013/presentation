@@ -70,7 +70,7 @@
 <section class="slide">
 	<h2>目次</h2>
 	<ul class="agenda">
-		<li>未来大学の特色 ~ PBLについて ~</li>
+		<li>未来大学におけるPBL</li><!-- ここ変えた0828 -->
 		<li>現在の問題</li>
 		<li>教育系の目的</li>
 		<li>eポートフォリオシステム</li>
@@ -126,7 +126,7 @@
 <section class="slide">
 	<h2>教育系の目的</h2>
 	<ul class="ula">
-		<li>高度ICT演習における学生の<font color="red">学習の振り返り</font><sup>*</sup><br>及び担当教員の<font color="red">指導</font>を支援する</li>
+		<li>高度ICT演習における学生の<font color="red">学習の振り返り</font><sup>*</sup>及び<br>担当教員の<font color="red">指導</font>を支援する</li>
 		<li>担当教員と学生からeポートフォリオシステムの要件を収集する</li>
 	</ul>
 	<ul class="ula" style="font-size: 30px; margin-left: 3em;">
@@ -137,28 +137,31 @@
 <section class="slide">
 	<h2>eポートフォリオシステム</h2>
 	<ul class="ula">
-		<li>ポートフォリオは学習者の学習活動<br>の可視化が可能<br></li>
-		<li>紙のポートフォリオと比較して</li>
+		<li>ポートフォリオは学習者の学習活動の可視化が可能<br></li>
+		<li>紙のポートフォリオと比較して…</li>
 		<ul>
 			<li>ネットワークを介した相互利用が可能</li>
 			<li>維持管理が容易</li>
 		</ul>
+		<br>
 		<li>導入例</li>
-		<li>金沢工業大学 KITポートフォリオシステム</li>
+		<li>&emsp;金沢工業大学 KITポートフォリオシステム</li>
 	</ul>
 </section>
 
 <section class="slide">
 	<h2>ヒアリング(5月末)</h2>
-	<ul class="ula" style="color:#000; font-size:150%;">
-		<li>ステークホルダーである高度ICT演習の<br>担当教員にeポートフォリオシステム<br>についての会議を開きました</li>
+	<ul class="ula" style="color:#1a1a1a; font-size:150%;">
+		<!--ここの日本語変える必要ある気がするょ-->
+		<li>ステークホルダーである高度ICT演習の担当教員に、<br>eポートフォリオシステムについての会議を開きました</li>
 	</ul>
 </section>
 
 <section class="slide">
 	<h2>ヒアリング結果</h2>
-	<ul style="color:#000; font-size:150%; margin-top: -1em;">
-		<li>基本的にPDCAサイクルを回せるように<br>して欲しい</li>
+	<ul style="color:#1a1a1a; font-size:150%; margin-top: -1em;">
+		<li><font color="red">高度ICT演習向けのシステム</font>を開発して欲しい</li>
+		<li>PDCAサイクルを回せるようにして欲しい</li>
 		<li>動くシステムを定期的に見せて欲しい</li>
 		<li><font color="red">高度ICT演習向けのシステム</font>を開発して<br>欲しい</li>
 	</ul>
@@ -167,17 +170,33 @@
 <section class="slide">
 	<h2>PDCAサイクル</h2>
 	<img src="img/PDCAcicle.png" width="120%" height="60%" align="right">
-	<!-- 次のシステムの利用図と関連させるよう図を書き直す -->
 </section>
 
 <section class="slide">
-	<h2>PDCAサイクル</h2>
-	<ul class="ula">
-		<li>plan:eポートフォリオシステムとデータベースを連携させる</li>
-		<li>do:連携方法を調べたり、webページなどを参考にしたり、プログラムをテストする</li>
-		<li>check:参考にしたwebページやテストで出たバグ、今までの学びをまとめる</li>
-		<li>action:先生から日本語で入力ができないとフィードバックをもらう</li>
-		<li>日本語が入力できるようにし、今度はownCloudと連携できるようにする</li>
+	<h2>具体例</h2>
+		<br>
+	<table width="1200" height="200" style="color:#000; font-size:100%; margin-left: 7%;">
+		<colgroup span="3" width="100" align="left">
+		<tr>
+			<td width="50">plan</td>
+			<td width="700">ポートフォリオシステムとデータベースを連携させる</td>
+		</tr>
+		<tr>
+			<td width="50">do</td>
+			<td width="700">活動計画を立てて連携方法を調べたり、実際に<br>ソースコードを書き、テストを繰り返す</td>
+		</tr>
+		<tr>
+			<td width="50">check</td>
+			<td width="700">参考文献や制作するまでの過程、学んだことをまとめて<br>ポートフォリオにを書く</td>
+		</tr>
+		<tr>
+			<td width="50">action</td>
+			<td width="700">先生から良かったことや修正すべきところを教えてもらう</td>
+		</tr>
+	</table>
+	<br>
+	<ul Class="t_slide">
+		<li>日本語入力できるようにし、今度はownCloudと連携できるようにする</li> 
 	</ul>
 </section>
 
@@ -194,38 +213,7 @@
 	<ul class="ula">
 		<li>既存のeポートフォリオシステムを検討した</li>
 	</ul>
-	
-	<table width="1000" height="200" style="color:#000" text style="font-size:150%;">
-		<colgroup span="3" width="100" align="center">
-		<tr>
-			<td width="180"><br></td>
-			<td width="50" style="font-size: 70%">共有</td>
-			<td width="150" style="font-size: 70%">(教育工学的)<br>振り返り</td>
-			<td width="120" style="font-size: 70%">UI<br>(操作性)</td>
-			<td width="120" style="font-size: 70%">公開</td>
-			<td width="200" style="font-size: 70%">カスタマイズ性</td><!-- ここの項目は消す -->
-			<td width="230" style="font-size: 70%; color:red">実装の容易さ</td>
-		</tr>
-		<tr>
-			<td><font face="Liberation Sans">Sakai</font></td>
-			<td>○</td>
-			<td>◎</td>
-			<td>△</td>
-			<td>△</td>
-			<td>◎</td>
-			<td style="color:red">✕</td>
-		</tr>
-		<tr>
-			<td><font face="Liberation Sans">Mahara</font></td>
-			<td>○</td>
-			<td>△</td>
-			<td>◎</td>
-			<td>○</td>
-			<td>○</td>
-			<td style="color:red">△</td>
-		</tr>
-	</table>
-	<div style="color:#000; font-size:70%; text-align:right;">参考文献 eポートフォリオシステム評価 宮崎 誠 2011</div>
+	<img src="img/hikaku_1.png" width="88%" eight="88%"style="margin-top: -1em;">	
 	<br>
 	<ul class="ula">
 		<li>要求を引き出しながら適応的に開発する<br>必要がある。</li>
@@ -237,7 +225,7 @@
 	<ul class="ula">
 		<li>使用するWebサーバのフレームワーク比較</li>
 	</ul>
-	<img src="img/technology_selections.png" width="120%" height="120%" style="margin-top: -1em;">
+	<img src="img/hikaku_2.png" width="85%" height="85%" style="margin-top: -1em;">
 	<br>
 	<ul class="ula">
 		<li>技術の選定を行なった結果、Flaskを<br>採用する</li>
