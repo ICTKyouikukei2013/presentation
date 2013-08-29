@@ -227,3 +227,9 @@ table{
   margin-left: 0; 
   border: solid;
 }
+
+#style{
+  font-size: 30px;
+  margin-top: 1%;
+  margin-left: 55px;
+}
