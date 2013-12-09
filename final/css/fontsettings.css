@@ -1,0 +1,79 @@
+body {
+    font-size: 18px;
+    line-height: 26px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: inherit;
+    font-size: inherit;
+}
+h5 {
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+h4 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+h3 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+li {
+    margin-left: 0.7em;
+    padding-left: 0.7em;
+    text-indent: -1em;
+}
+ul {
+    list-style: none;
+}
+ul li:before {
+    content: "\25CB";
+    font-size: 100%;
+    padding-right: 5px;
+}
+ul li ul li:before {
+    content: "\25CF";
+    font-size: 100%;
+    padding-right: 5px;
+}
+ul li.li-ballot-checked:before {
+    content: "\2611";
+}
+ul li.li-ballot:before {
+    content: "\2610";
+}
+
+p.listing-indent {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.handout-page-num {
+    text-align: right;
+    font-size: 1em;
+}
+
+#zone {
+    padding: 2em;
+}
+#slidefooter-page {
+    text-align: right;
+    font-size: 1.5em;
+    color: #444;
+    /* visibility: hidden; */ /* hide page numbers of all pages. */
+}
+#slidefooter-text {
+    text-align: center;
+    font-size: 0.7em;
+    color: #444;
+}
+
