@@ -4,12 +4,21 @@
 }
 
 !SLIDE
+
+<center>
+
 ## 高度ICT演習向けeポートフォリオシステムの開発
-<table>
+<style>
+	#meibo{
+		margin-top: 100px;
+	}
+</style>
+
+<table id="meibo">
 <tr>
-<td width=30%>B4</td>
-<td width=30%>B3</td>
-<td width=30%>B2</td>
+<td width=35%>B4</td>
+<td width=35%>B3</td>
+<td width=35%>B2</td>
 </tr>
 <tr>
 <td>中野 佑</td>
@@ -27,27 +36,28 @@
 <td>諸原 聖</td>
 </tr>
 <tr>
-<td>5-1</td>
+<td>&nbsp;</td>
 <td>中田 友貴</td>
 <td>水尻 裕人</td>
 </tr>
 <tr>
-<td>6-1</td>
-<td>6-2</td>
-<td>6-3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr>
-<td>7-1</td>
-<td>7-2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 <td>教員</td>
 </tr>
 <tr>
-<td>8-1</td>
-<td>8-2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 <td>神谷 年洋</td>
 </tr>
 </table>
- 
+</center>
+
 !SLIDE
 ## 目次
 - 
