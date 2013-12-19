@@ -54,6 +54,9 @@ ul li.li-ballot-checked:before {
 ul li.li-ballot:before {
     content: "\2610";
 }
+ul li.li-rightarrow:before {
+    content: "\279C";
+}
 
 p.listing-indent {
     padding-left: 1em;

@@ -84,19 +84,21 @@
 !SLIDE
 
 ## 問題
-- 受動的な学習の中で、大学ではMoodle*を導入している。
- 
-- 能動的な学習には支援するシステムが無い。
-
-  * →活動記録がないので見返す事ができない。
-
-  * →学生は後で振り返る事ができて、教員は学生の学習を確認したい。
-
-- <font color = #ff0000>教員は学生に合わせた指導ができない。</font>
-
-  * →学生によって行う活動が異なる。
-
-<p align = text-bottom><br>*Moodle:Course Management Systemの一種
+<ul>
+<li>受動的な学習の中で、大学ではMoodle*を導入している。</li>
+<li>能動的な学習には支援するシステムが無い。
+<ul>
+<li class="li-rightarrow">活動記録がないので見返す事ができない。</li>
+<li class="li-rightarrow">学生は後で振り返る事ができて、教員は学生の学習を確認したい。</li>
+</ul>
+</li>
+<li><font color = #ff0000>教員は学生に合わせた指導ができない。</font>
+<ul>
+<li class="li-rightarrow">学生によって行う活動が異なる。</li>
+</ul>
+</li>
+</ul>
+<p align = "text-bottom"><br><font size="-1"*Moodle:Course Management Systemの一種</font></p>
 
 !SLIDE
 
