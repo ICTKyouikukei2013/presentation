@@ -1,5 +1,5 @@
 {
-    "footer-text": "発表用アレ",
+    "footer-text": "後期最終成果発表会",
     "show-footer-in-title-page": false
 }
 
@@ -67,7 +67,7 @@
 - 公立はこだて未来大学の特徴的な授業にPBLがあり<br>PBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる<br>知識やスキルを習得する
-<img style="width:320px;" src="img/DSCF0528.jpg" align = "right" >
+<img style="width:320px;" src="img/DSCF0528.JPG" align = "right" >
 
 
 !SLIDE
@@ -85,7 +85,7 @@
 
 ## 問題
 <ul>
-<li>受動的な学習の中で、大学ではMoodle*を導入している。</li>
+<li>受動的な学習の中で、大学ではMoodle\*を導入している。</li>
 <li>能動的な学習には支援するシステムが無い。
 <ul>
 <li class="li-rightarrow">活動記録がないので見返す事ができない。</li>
@@ -98,7 +98,7 @@
 </ul>
 </li>
 </ul>
-<p align = "text-bottom"><br><font size="-1"*Moodle:Course Management Systemの一種</font></p>
+<p align = "text-bottom"><br><font size="-1">\*Moodle:Course Management Systemの一種</font></p>
 
 !SLIDE
 
@@ -118,9 +118,9 @@
 !SLIDE
 
 ## 紙のポートフォリオと比較して
-  * ネットワークを介したフィードバックや共同編集が可能
-  * データが経年劣化しない
-  * 大量のデータを一つのPCで管理できる
+* ネットワークを介したフィードバックや共同編集が可能
+* データが経年劣化しない
+* 大量のデータを一つのPCで管理できる
 
 <img style="width:320px;" src="img/2418668807_2928b77d03.jpg" align = "center">
 <br><p align = center >http://www.flickr.com/photos/lfr/2418668807/</p>
@@ -146,9 +146,8 @@ http://www.flickr.com/photos/77018488@N03/8673758843/sizes/m/
 !SLIDE
 
 ## ヒアリング（5月末）
-ステークホルダーである高度ICT演習の
-担当教員に、eポートフォリオシステムに
-ついての会議を開きました
+ステークホルダーである高度ICT演習の担当教員に、</br>
+eポートフォリオシステムについての会議を開いた
 
 - 高度ICT演習向けの開発をして欲しい
 - PDCAサイクルを回せるようにして欲しい
@@ -156,14 +155,14 @@ http://www.flickr.com/photos/77018488@N03/8673758843/sizes/m/
 
 !SLIDE
 
-##　ペーパープロトタイプ
+##ペーパープロトタイプ
 - ペーパープロトタイプ載せる予定
 
 !SLIDE
 
 ## 後期の活動
 - 開発・開発体制
-    * UX・プログラム実装、サーバー・ownCloud
+	* UX・プログラム実装、サーバー・ownCloud
 - システムのデモ
 
 !SLIDE
@@ -268,7 +267,7 @@ http://www.flickr.com/photos/77018488@N03/8673758843/sizes/m/
 !SLIDE
 
 ## 全体のスケジュール
-<img style="width:1024px;" src="img/schedule.png" align = "center"><br>
+<img style="width:95%;" src="img/schedule.png" align = "center">
 
 !SLIDE
 
