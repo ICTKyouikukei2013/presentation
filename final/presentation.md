@@ -116,17 +116,13 @@
 <br>→教員も学生の学習を確認が出来ないためアドバイスが出来ない。
 
 !SLIDE
-<!-- 
-## 紙のポートフォリオと比較して
+<!-- ## 紙のポートフォリオと比較して
 * ネットワークを介したフィードバックや共同編集が可能
 * データが経年劣化しない
 * 大量のデータを一つのPCで管理できる
 
 <img style="width:320px;" src="img/2418668807_2928b77d03.jpg" align = "center">
-<br><p align = center >http://www.flickr.com/photos/lfr/2418668807/</p>
-
-!SLIDE
--->
+<br><p align = center >http://www.flickr.com/photos/lfr/2418668807/</p> -->
 
 ## 既存のeポートフォリオ 
 - 既存のeポートフォリオシステムを比較した
