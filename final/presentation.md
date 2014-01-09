@@ -87,7 +87,7 @@
 </div>
 </div>
 
-<img style="width:320px;" src="img/5430587649_7669371a8f.jpg" align = "right">
+<img style="width:320px;"  style = "float:right" src="img/5430587649_7669371a8f.jpg" align = "center">
 <br>
 
 !SLIDE
@@ -171,7 +171,7 @@ eポートフォリオシステムについての会議を開いた
 !SLIDE
 
 ##ペーパープロトタイプ
-<img style="width:320px;" src="img/goal.png" align = "center">
+<img style="width:640px;" src="img/goal.png" align = "center">
 
 !SLIDE
 
