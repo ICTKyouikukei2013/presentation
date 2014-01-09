@@ -145,8 +145,8 @@
 
 - 要求を引き出しながら適応的に開発する必要がある
 
-<img style="width:30%" style="float:right" src="img/Mahara_logo.png" align = left>
-<img style="width:30%;" src="img/SakaiLogolg.jpg" align = right>
+<img style="width:30%" style="float:right" src="img/Mahara_logo.png" >
+<img style="width:20%;"style = "float:right" src="img/SakaiLogolg.jpg" >
 
 
 !SLIDE
@@ -176,7 +176,7 @@
 
 ## 後期の活動
 - 開発・開発体制
-	* UX・プログラム実装、サーバー
+  - UX・プログラム実装、サーバー
 - システムのデモ
 
 !SLIDE
