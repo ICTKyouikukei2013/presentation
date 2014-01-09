@@ -1,6 +1,6 @@
 {
-    "footer-text": "後期最終成果発表会",
-    "show-footer-in-title-page": false
+    "footer-text": "後期最終成果発表会 2014/1/25", 
+    "show-footer-in-tiatle-page": false
 }
 
 !SLIDE
@@ -67,7 +67,7 @@
 <img style="width:320px" style = "float:right"  src="img/DSCF0528.JPG" align = "right" >
 - 公立はこだて未来大学の特徴的な授業にPBLがあり<br>PBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に活動を行う
- - ソフトウェア開発のプロセスを経験し、基礎となる<br>知識やスキルを習得する
+ - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 
 
 
@@ -83,12 +83,11 @@
 <div style="width:50%;margin:0em e3m;">
 ### 能動的な学習(e.g. ICT演習)
 * 学習者の自律性や自主性に重点を置く
-* 社会にある解のない複雑な問題に対応する<br>力を身につける
+* 社会にある解のない複雑な問題に対応する力を身につける
 </div>
 </div>
 
 <img style="width:320px;"  style = "float:right" src="img/5430587649_7669371a8f.jpg" align = "center">
-<br>
 
 !SLIDE
 
@@ -107,7 +106,8 @@
 </ul>
 </li>
 </ul>
-<li>受動的な学習の中で、はこだて未来大学ではMoodle\*を導入している。</li>
+<ul>
+<li>受動的な学習の中で、はこだて未来大学ではMoodle\*を導入している。</li></ul>
 <p align = "text-bottom"><br><font size="-1">\*Moodle: Course Management Systemの一種</font></p>
 
 !SLIDE
@@ -116,15 +116,16 @@
 - 高度ICT演習における
   - 学生の学習の振り返り及び担当教員の指導を支援する
   - 担当教員と学生からeポートフォリオシステムの要件を収集する
+  - 収集した要件を基にプロトタイピングを作成する
 
 
 !SLIDE
 
 ## 一般的なeポートフォリオシステム
 - eポートフォリオは学習者の学習活動の可視化が可能
-- 能動的な学習には支援するシステムがない
-<br>→学びを復習出来ないため学生が後に振り返りが出来ない。
-<br>→教員も学生の学習を確認が出来ないためアドバイスが出来ない。
+- はこだて未来大学で行われる能動的な学習には支援するシステムがない
+<br>→成果物が残らないので学生が後に振り返りが出来ない
+<br>→教員も学生の学習を確認が出来ないためアドバイスが出来ない
 
 !SLIDE
 <!-- ## 紙のポートフォリオと比較して
@@ -138,24 +139,24 @@
 ## 既存のeポートフォリオ 
 - 既存のeポートフォリオシステムを比較した
 
-<img style="width:480px;" src="img/hikaku_1.png"><br>
+<img style="width:80%;" src="img/hikaku_1.png"><br>
+
+<font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
 
 - 要求を引き出しながら適応的に開発する
 必要がある
 
-<font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年)
+<img style="width:30%" style="float:right" src="img/Mahara_logo.png" align = left>
+<img style="width:30%;" src="img/SakaiLogolg.jpg" align = right>
 
-<img style="width:240px;" src="img/Mahara_logo.png" align = "right"><br>
-<p align = top >
-http://www.flickr.com/photos/77018488@N03/8673758843/sizes/m/
-</font></p>
+
 !SLIDE
 
 ## 前期の活動
 - ICT教員によるeポートフォリオ要求定義会議
-- 大場先生へのヒアリング
+- 大場コース長へのヒアリング
 - ペーパープロトタイプの作成(デモもしくは写真載せる)
-- もう一度大場先生にヒアリング
+- もう一度大場コース長にヒアリング
 - 機能の洗い出し
 - ヒアリング結果からペーパープロトタイプをもう一度作成
 !SLIDE
