@@ -1,5 +1,5 @@
 {
-    "footer-text": "後期最終成果発表会 2014/1/24", 
+    "footer-text": "2014/1/24　後期最終成果発表会", 
     "show-footer-in-tiatle-page": false
 }
 
@@ -64,8 +64,8 @@
 
 !SLIDE
 ## 背景(1/2)
-<img style="width:320px" style = "float:right"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学の特徴的な授業にPBLがあり<br>PBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
+<img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
+- 公立はこだて未来大学の特徴的な授業にPBLがありPBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 
@@ -73,21 +73,20 @@
 
 !SLIDE
 ## 背景(2/2)
+
 <div style="display:-webkit-box;display:-moz-box;">
-<div style="width:50%;margin:0em e3m;">
+<div style="width:50%; margin:0em e3m;">
 ### 受動的な学習(例: 座学)
 * 座学の授業で教師による一方的な知識伝達
 * テストによる評価が行われる
 </div>
+<div style="width:50%; margin:0em e3m;">
 
-<div style="width:50%;margin:0em e3m;">
 ### 能動的な学習(例: PBL)
 * 学習者の自律性や自主性に重点を置く
 * 社会にある解のない複雑な問題に対応する力を身につける
-</div>
-</div>
-
-<img style="width:320px;"  style = "float:right" src="img/5430587649_7669371a8f.jpg" align = "center">
+</div></div>
+<img style="width:50%;" src="img/5430587649_7669371a8f.jpg">
 
 !SLIDE
 
@@ -122,10 +121,18 @@
 !SLIDE
 
 ## 一般的なeポートフォリオシステム
-- eポートフォリオは学習者の学習活動の可視化が可能
-- はこだて未来大学で行われる能動的な学習には支援するシステムがない
-<br>→成果物が残らないので学生が後に振り返りが出来ない
-<br>→教員も学生の学習を確認が出来ないためアドバイスが出来ない
+<ul>
+<li>eポートフォリオは学習者の学習活動の可視化が可能
+</ul>
+<ul>
+<li>はこだて未来大学で行われる能動的な学習には支援するシステムがない
+<ul>
+<li class="li-rightarrow">成果物が残らないので学生が後に振り返りが出来ない</li>
+<li class="li-rightarrow">教員も学生の学習を確認が出来ないためアドバイスが出来ない</li>
+</ul>
+</li>
+</ul>
+
 
 !SLIDE
 <!-- ## 紙のポートフォリオと比較して
@@ -139,14 +146,15 @@
 ## 既存のeポートフォリオ 
 - 既存のeポートフォリオシステムを比較した
 
-<img style="width:80%;" src="img/hikaku_1.png"><br>
+<img style="width:100%;" src="img/hikaku_1.png"><br>
 
 <font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
 
 - 要求を引き出しながら適応的に開発する必要がある
 
-<img style="width:30%" style="float:right" src="img/Mahara_logo.png" >
-<img style="width:20%;"style = "float:right" src="img/SakaiLogolg.jpg" >
+<img style="width:20%; margin: 0 20px 0 20px;" style = "float:right" src="img/SakaiLogolg.jpg" >
+<img style="width:30%"  style="float:right" src="img/Mahara_logo.png" >
+
 
 
 !SLIDE
@@ -157,7 +165,7 @@
 - ペーパープロトタイプの作成
 - 再度ICTコース長にヒアリング
 - 機能の洗い出し
-- ヒアリング結果からペーパープロトタイプをもう一度作成
+- ヒアリング結果からペーパープロトタイプを再度作成
 !SLIDE
 
 ## ヒアリング（5月末）
@@ -169,7 +177,34 @@
 
 !SLIDE
 
-##ペーパープロトタイプ
+## 教育系開発体制
+<center>
+<img style="width:60%;" src="img/kaihatsutaisei.png">
+</center>
+
+!SLIDE
+
+## PDCAサイクル
+<center>
+<img style="width:60%;" src="img/PDCAcicle.png">
+</center>
+
+!SLIDE
+
+## システム全体図
+<center>
+<img style="width:60%;" src="img/portbacker.png">
+</center>
+
+!SLIDE
+
+## ペーパープロトタイプ１回目
+- 画像を載せる予定
+- <img style="width:100%;" src="img/" align = "center">
+
+!SLIDE
+
+## ペーパープロトタイプ２回目
 <img style="width:640px;" src="img/goal.png" align = "center">
 
 !SLIDE
