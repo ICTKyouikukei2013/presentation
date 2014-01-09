@@ -64,47 +64,58 @@
 
 !SLIDE
 ## 背景(1/2)
+<img style="width:320px" style = "float:right"  src="img/DSCF0528.JPG" align = "right" >
 - 公立はこだて未来大学の特徴的な授業にPBLがあり<br>PBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる<br>知識やスキルを習得する
-<img style="width:320px;" src="img/DSCF0528.JPG" align = "right" >
+
 
 
 !SLIDE
 ## 背景(2/2)
-- 受動的な学習(e.g. 座学)
- - 座学の授業で教師による一方的な知識伝達
- - テストによる評価が行われる
-- 能動的な学習(e.g. ICT演習)
- - 学習者の自律性や自主性に重点を置く
- - 社会にある解のない複雑な問題に対応する<br>力を身につける
-<img style="width:320px;" src="img/5430582929_48c828d359.jpg" align = "right">
+<div style="display:-webkit-box;display:-moz-box;">
+<div style="width:50%;margin:0em e3m;">
+### 受動的な学習(e.g. 座学)
+* 座学の授業で教師による一方的な知識伝達
+* テストによる評価が行われる
+</div>
+
+<div style="width:50%;margin:0em e3m;">
+### 能動的な学習(e.g. ICT演習)
+* 学習者の自律性や自主性に重点を置く
+* 社会にある解のない複雑な問題に対応する<br>力を身につける
+</div>
+</div>
+
+<img style="width:320px;" src="img/5430587649_7669371a8f.jpg" align = "right">
 <br>
 
 !SLIDE
 
 ## 問題
 <ul>
-<li>受動的な学習の中で、大学ではMoodle\*を導入している。</li>
+
 <li>能動的な学習には支援するシステムが無い。
 <ul>
 <li class="li-rightarrow">活動記録がないので見返す事ができない。</li>
-<li class="li-rightarrow">学生は後で振り返る事ができて、教員は学生の学習を確認したい。</li>
+<li class="li-rightarrow">学生の学習を確認したい。</li>
 </ul>
 </li>
 <li><font color = #ff0000>教員は学生に合わせた指導ができない。</font>
 <ul>
-<li class="li-rightarrow">学生によって行う活動が異なる。</li>
+<li class="li-rightarrow">学生ごとに活動が異なる。</li>
 </ul>
 </li>
 </ul>
-<p align = "text-bottom"><br><font size="-1">\*Moodle:Course Management Systemの一種</font></p>
+<li>受動的な学習の中で、はこだて未来大学ではMoodle\*を導入している。</li>
+<p align = "text-bottom"><br><font size="-1">\*Moodle: Course Management Systemの一種</font></p>
 
 !SLIDE
 
 ## 目的
-- 高度ICT演習における学生の学習の振り返り及び担当教員の指導を支援する
-- 担当教員と学生からeポートフォリオシステムの要件を収集する
+- 高度ICT演習における
+  - 学生の学習の振り返り及び担当教員の指導を支援する
+  - 担当教員と学生からeポートフォリオシステムの要件を収集する
 
 
 !SLIDE
@@ -126,10 +137,15 @@
 
 ## 既存のeポートフォリオ 
 - 既存のeポートフォリオシステムを比較した
+
 <img style="width:480px;" src="img/hikaku_1.png"><br>
+
+- 要求を引き出しながら適応的に開発する
+必要がある
+
 <font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年)
 
-<img style="width:240px;" src="img/8673758843_339285b2b8.jpg" align = "right"><br>
+<img style="width:240px;" src="img/Mahara_logo.png" align = "right"><br>
 <p align = top >
 http://www.flickr.com/photos/77018488@N03/8673758843/sizes/m/
 </font></p>
@@ -155,7 +171,7 @@ eポートフォリオシステムについての会議を開いた
 !SLIDE
 
 ##ペーパープロトタイプ
-- ペーパープロトタイプ載せる予定
+<img style="width:320px;" src="img/goal.png" align = "center">
 
 !SLIDE
 
@@ -173,7 +189,7 @@ eポートフォリオシステムについての会議を開いた
 <td>実装する</td>
 </tr>
 <tr>
-<td>ユーザー管理ができる</td>
+<td>個人とグループのユーザー管理ができる</td>
 <td>○</td>
 </tr>
 <tr>
