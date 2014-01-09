@@ -1,5 +1,5 @@
 {
-    "footer-text": "後期最終成果発表会 2014/1/25", 
+    "footer-text": "後期最終成果発表会 2014/1/24", 
     "show-footer-in-tiatle-page": false
 }
 
@@ -143,27 +143,25 @@
 
 <font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
 
-- 要求を引き出しながら適応的に開発する
-必要がある
+- 要求を引き出しながら適応的に開発する必要がある
 
-<img style="width:30%" style="float:right" src="img/Mahara_logo.png" align = left>
-<img style="width:30%;" src="img/SakaiLogolg.jpg" align = right>
+<img style="width:30%" style="float:right" src="img/Mahara_logo.png" >
+<img style="width:20%;"style = "float:right" src="img/SakaiLogolg.jpg" >
 
 
 !SLIDE
 
 ## 前期の活動
-- ICT教員によるeポートフォリオ要求定義会議
-- 大場コース長へのヒアリング
-- ペーパープロトタイプの作成(デモもしくは写真載せる)
-- もう一度大場コース長にヒアリング
+- 高度ICT演習の担当教員によるeポートフォリオ要求定義会議
+- ICTコース長にヒアリング
+- ペーパープロトタイプの作成
+- 再度ICTコース長にヒアリング
 - 機能の洗い出し
 - ヒアリング結果からペーパープロトタイプをもう一度作成
 !SLIDE
 
 ## ヒアリング（5月末）
-ステークホルダーである高度ICT演習の担当教員に、</br>
-eポートフォリオシステムについての会議を開いた
+高度ICT演習の担当教員にeポートフォリオシステムについての会議を開いた
 
 - 高度ICT演習向けの開発をして欲しい
 - PDCAサイクルを回せるようにして欲しい
@@ -178,7 +176,7 @@ eポートフォリオシステムについての会議を開いた
 
 ## 後期の活動
 - 開発・開発体制
-	* UX・プログラム実装、サーバー
+  - UX・プログラム実装、サーバー
 - システムのデモ
 
 !SLIDE
