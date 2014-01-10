@@ -199,13 +199,14 @@
 !SLIDE
 
 ## ペーパープロトタイプ１回目
-- 画像を載せる予定
-- <img style="width:100%;" src="img/" align = "center">
+<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
 
 !SLIDE
 
 ## ペーパープロトタイプ２回目
-<img style="width:640px;" src="img/goal.png" align = "center">
+<img style="width:100%;" src="img/goal.png" align = "center">
 
 !SLIDE
 
