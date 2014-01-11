@@ -83,17 +83,17 @@
 <div style="width:50%; margin:0em e3m;">
 
 ### 能動的な学習(例: PBL)
-* 学習者の自律性や自主性に重点を置く
-* 社会にある解のない複雑な問題に対応する力を身につける
+* 学習者が自主的に問題設定し、活動する
+* 活動過程を含めた評価が必要
 </div></div>
-<img style="width:50%;" src="img/5430587649_7669371a8f.jpg">
+<img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
 
 !SLIDE
 
 ## 問題
 <ul>
 
-<li>能動的な学習には支援するシステムが無い。
+<li>高度ICT演習には能動的な学習を支援するシステムが無い。
 <ul>
 <li class="li-rightarrow">活動記録がないので見返す事ができない。</li>
 <li class="li-rightarrow">学生の学習を確認したい。</li>
@@ -106,8 +106,8 @@
 </li>
 </ul>
 <ul>
-<li>受動的な学習の中で、はこだて未来大学ではMoodle\*を導入している。</li></ul>
-<p align = "text-bottom"><br><font size="-1">\*Moodle: Course Management Systemの一種</font></p>
+<li>受動的な学習の中で、公立はこだて未来大学ではMoodle\*を導入している。</li></ul>
+<p align = "text-bottom"><br><font size="4">\*Moodle: CMS(Course Management System)の一種</font></p>
 
 !SLIDE
 
@@ -177,13 +177,6 @@
 
 !SLIDE
 
-## 教育系開発体制
-<center>
-<img style="width:60%;" src="img/kaihatsutaisei.png">
-</center>
-
-!SLIDE
-
 ## PDCAサイクル
 <center>
 <img style="width:60%;" src="img/PDCAcicle.png">
@@ -193,7 +186,7 @@
 
 ## システム全体図
 <center>
-<img style="width:60%;" src="img/portbacker.png">
+<img src="img/portbacker.png" style="width:53%;height:53%;">
 </center>
 
 !SLIDE
@@ -206,111 +199,129 @@
 !SLIDE
 
 ## ペーパープロトタイプ２回目
+- メンバー間で実装するシステムの共有を行うために画面設計を行った
 <img style="width:100%;" src="img/goal.png" align = "center">
 
 !SLIDE
 
 ## 後期の活動
 - 開発・開発体制
-  - UX・プログラム実装、サーバー
 - システムのデモ
+- スコープ
+
+!SLIDE
+
+## 開発体制
+<center>
+<img src="img/kaihatsutaisei2.png" style="width:55%;height:55%;">
+</center>
+
+!SLIDE
+
+## システムのデモ
 
 !SLIDE
 
 ## スコープ 1/2 
 <table border>
 <tr>
-<td>要求</td>
+<td>機能</td>
 <td>実装する</td>
 </tr>
+
 <tr>
-<td>個人とグループのユーザー管理ができる</td>
-<td>○</td>
+<td>グループの管理ができる</td>
+<td></td>
 </tr>
+
 <tr>
-<td>外部からのビューを確認する</td>
-<td>?</td>
+<td>外部からポートフォリオを閲覧する</td>
+<td></td>
 </tr>
+
 <tr>
 <td>教員が学生の学習成果物を閲覧できる</td>
-<td>○</td>
+<td></td>
 </tr>
+
 <tr>
 <td>学生が教員からレビューをもらうことができる</td>
-<td>○</td>
+<td></td>
 </tr>
+
 <tr>
 <td>教員が学生の目標を知ることができる</td>
-<td>○</td>
+<td align = "center">○</td>
 </tr>
+
 <tr>
 <td>学生が学内公開と、学外公開用のビューを作成することができる</td>
-<td>○</td>
+<td align = "center">○</td>
+</tr>
+
+<tr>
+<td>学生が学習成果物を管理することができる</td>
+<td align = "center">○</td>
 </tr>
 <tr>
-<td>学生が学習成果物を管理することができる
-</td>
-<td>○</td>
-</tr>
+
 <tr>
-<td>グループ機能
-</td>
-<td>×</td>
+<td>ゴールをグラフで可視化</td>
+<td align = "center">○</td>
 </tr>
+
 </table>
 
 !SLIDE
 
 ## スコープ 2/2
 
-<table>
+<table border>
 <tr>
-<td>学生が目標を変更することができる</td>
-<td>○</td>
+<td>機能</td>
+<td>実装する</td>
 </tr>
+
 <tr>
-<td>学生が興味のあることを変更できる
-</td>
-<td>○</td>
+<td>ローカルから成果物をアップロード</td>
+<td></td>
 </tr>
+
 <tr>
-<td>目標と学習成果物の関連付け</td>
-<td>○</td>
+<td>ゴールと日誌の関連付け</td>
+<td align = "center">○</td>
 </tr>
+
 <tr>
-<td>学生のエントリーシートを作る手助けになる</td>
-<td>○</td>
+<td>学生が目標と現状の自己評価をすることができる</td>
+<td align = "center">○</td>
 </tr>
+
 <tr>
-<td>学生が目標と現状の自己評価をすることができる
-</td>
-<td>○</td>
+<td>ユーザの検索</td>
+<td></td>
 </tr>
+
 <tr>
-<td>学外の人が学生の行なってきた活動を閲覧できる
-</td>
-<td>?</td>
+<td>認証</td>
+<td></td>
 </tr>
+
 <tr>
-<td>教員が学生の成績を見ることができる
-</td>
-<td>?</td>
+<td></td>
+<td></td>
 </tr>
+
 <tr>
-<td>学生がタグで検索
-</td>
-<td>?</td>
+<td></td>
+<td></td>
 </tr>
+
 <tr>
-<td>システムがFacebookと連携できる
-</td>
-<td>×</td>
+<td></td>
+<td></td>
 </tr>
-<tr>
-<td>システムがRedmineと連携できる
-</td>
-<td>×</td>
-</tr>
+
 </table>
 
 
