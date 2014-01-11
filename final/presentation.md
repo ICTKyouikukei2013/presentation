@@ -179,7 +179,7 @@
 
 ## 教育系開発体制
 <center>
-<img style="width:60%;" src="img/kaihatsutaisei.png">
+<img style="width:60%;" src="img/kaihatsutaisei2.png">
 </center>
 
 !SLIDE
