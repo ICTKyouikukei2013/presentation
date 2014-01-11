@@ -86,7 +86,7 @@
 * 学習者の自律性や自主性に重点を置く
 * 社会にある解のない複雑な問題に対応する力を身につける
 </div></div>
-<img style="width:50%;height:300px;" src="img/5430587649_7669371a8f.jpg">
+<img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
 
 !SLIDE
 
@@ -179,7 +179,7 @@
 
 ## 教育系開発体制
 <center>
-<img style="width:60%;height:550px;" src="img/kaihatsutaisei2.png">
+<img src="img/kaihatsutaisei2.png" style="width:55%;height:55%;">
 </center>
 
 !SLIDE
@@ -193,7 +193,7 @@
 
 ## システム全体図
 <center>
-<img style="width:60%;height:550px;" src="img/portbacker.png">
+<img src="img/portbacker.png" style="width:53%;height:53%;">
 </center>
 
 !SLIDE
@@ -206,6 +206,7 @@
 !SLIDE
 
 ## ペーパープロトタイプ２回目
+- メンバー間で実装するシステムの共有を行うために画面設計を行った
 <img style="width:100%;" src="img/goal.png" align = "center">
 
 !SLIDE
