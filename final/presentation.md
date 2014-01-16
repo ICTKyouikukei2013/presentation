@@ -73,7 +73,7 @@
 !SLIDE
 ## 背景(1/2)
 <img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学(以下、未来大)の特徴的な授業にPBLがありPBL型の</br>授業として<font color = #ff0000>高度ICT演習</font>がある
+- 公立はこだて未来大学(以下、未来大)の特徴的な授業にPBLがありPBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 
@@ -85,7 +85,7 @@
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em e3m;">
 ### 受動的な学習(例: 座学)
-* 座学の授業で教師による一方的な知識伝達
+* 座学の授業で教師による</br>一方的な知識伝達
 * テストによる評価が行われる
 </div>
 <div style="width:50%; margin:0em e3m;">
@@ -101,7 +101,7 @@
 ## 問題
 <ul>
 
-<li>高度ICT演習には能動的な学習を支援するシステムが未来大には無い
+<li>未来大の高度ICT演習には能動的な学習を支援するシステムが無い
 <ul>
 <li class="li-rightarrow">活動記録がないので見返す事ができない</li>
 <li class="li-rightarrow"><font color = #ff0000>学生がどのように学習しているかわからない</font></li>
@@ -114,8 +114,9 @@
 </li>
 </ul>
 <ul>
-<li>受動的な学習の中で、未来大ではMoodle\*</br>を導入している。</li></ul>
-<p align = "text-bottom"><br><font size="4">\*Moodle: CMS(Course Management System)の一種</font></p>
+<li>受動的な学習の中で、未来大ではMoodle\*を導入している。</li></ul>
+</br></br>
+<p><style="font-size:5%;margin-left:50px;">\*Moodle: CMS(Course Management System)の一種</font></p>
 
 !SLIDE
 
@@ -187,9 +188,16 @@
 !SLIDE
 
 ## PDCAサイクル
-<center>
-<img style="width:60%;" src="img/PDCAcicle.png">
-</center>
+### Plan  
+  <span class="test"> ゴール管理機能</span>
+### Do
+  <span class="test"> 日誌投稿機能</span>
+  </br>
+  <span class="test"> 成果物管理機能</span>
+### Check
+  <span class="test"> eポートフォリオ作成機能</span>
+### Action
+  <span class="test"> フィードバック機能</span>
 
 !SLIDE
 
@@ -208,28 +216,24 @@
 !SLIDE
 
 ## ペーパープロトタイプ２回目
-- メンバー間で実装するシステムの共有を行うために画面設計を行った
+- 実装するシステムをメンバー間で共有するために画面設計を行った
 <img style="width:100%;" src="img/goal.png" align = "center">
 
 !SLIDE
 
 ## 後期の活動
-- 開発・開発体制
-- システムのデモ
-- スコープ
-
+- 開発
+ - Gitによる分散開発
+ - Issueを使ったチケット駆動開発
+- 実装範囲の設定
+- 運用
+ - サーバを用意し実環境での動作確認
 !SLIDE
 
 ## 開発体制
 <center>
 <img src="img/kaihatsutaisei2.png" style="width:55%;height:55%;">
 </center>
-
-!SLIDE
-
-## システムのデモ
-- URL
- - https://www10120ug.sakura.ne.jp
 
 !SLIDE
 
@@ -358,5 +362,7 @@
  - ペーパープロトタイプ
 - 後期の活動
  - 開発
-
+<!-- 
+目次と同じ感じですω・
+-->
 
