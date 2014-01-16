@@ -65,8 +65,8 @@
 !SLIDE
 ## 背景(1/2)
 <img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学の特徴的な授業にPBLがありPBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
- - <font color = #ff0000>単位が出ない中</font>、学生が自主的に活動を行う
+- 公立はこだて未来大学(以下、未来大)の特徴的な授業にPBLがありPBL型の</br>授業として<font color = #ff0000>高度ICT演習</font>がある
+ - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 
 
@@ -83,7 +83,7 @@
 <div style="width:50%; margin:0em e3m;">
 
 ### 能動的な学習(例: PBL)
-* 学習者が自主的に問題設定し、活動する
+* 学習者が自主的に問題設定し、</br>活動する
 * 活動過程を含めた評価が必要
 </div></div>
 <img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
@@ -93,36 +93,37 @@
 ## 問題
 <ul>
 
-<li>高度ICT演習には能動的な学習を支援するシステムが無い。
+<li>高度ICT演習には能動的な学習を支援するシステムが未来大学には無い
 <ul>
-<li class="li-rightarrow">活動記録がないので見返す事ができない。</li>
-<li class="li-rightarrow">学生の学習を確認したい。</li>
+<li class="li-rightarrow">活動記録がないので見返す事ができない</li>
+<li class="li-rightarrow"><font color = #ff0000>学生がどのように学習しているかわからない</font></li>
 </ul>
 </li>
-<li><font color = #ff0000>教員は学生に合わせた指導ができない。</font>
+<li>教員は学生に合わせた指導ができない。
 <ul>
-<li class="li-rightarrow">学生ごとに活動が異なる。</li>
+<li class="li-rightarrow"><font color = #ff0000>学生ごとに活動が異なるため</font></li>
 </ul>
 </li>
 </ul>
 <ul>
-<li>受動的な学習の中で、公立はこだて未来大学ではMoodle\*を導入している。</li></ul>
+<li>受動的な学習の中で、公立はこだて未来大学ではMoodle\*</br>を導入している。</li></ul>
 <p align = "text-bottom"><br><font size="4">\*Moodle: CMS(Course Management System)の一種</font></p>
 
 !SLIDE
 
 ## 目的
 - 高度ICT演習における
-  - 学生の学習の振り返り及び担当教員の指導を支援する
-  - 担当教員と学生からeポートフォリオシステムの要件を収集する
-  - 収集した要件を取り入れながら開発をする
-
+  - 学生の<font color = #ff0000>学習の振り返り</font>及び<font color = #ff0000>担当教員の指導を支援する</font>
+  - 担当教員と学生からeポートフォリオシステムの要件を収集し、</br>取り入れながら開発をする
+<!--
+- プロジェクトの進め方や最新技術に触れながら開発に関する知識を修得する(教育系PBLの目的)
+ -->
 
 !SLIDE
 
 ## 一般的なeポートフォリオシステム
 <ul>
-<li>eポートフォリオは学習者の学習活動の可視化が可能
+<li>eポートフォリオは<font color = #ff0000>学習者の学習活動の可視化が可能</font>
 </ul>
 <ul>
 <li>はこだて未来大学で行われる能動的な学習には支援するシステムがない
@@ -148,7 +149,7 @@
 
 <img style="width:100%;" src="img/hikaku_1.png"><br>
 
-<font size="1">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
+<font size="2">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
 
 - 要求を引き出しながら適応的に開発する必要がある
 
