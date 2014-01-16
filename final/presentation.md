@@ -228,6 +228,8 @@
 !SLIDE
 
 ## システムのデモ
+- URL
+ - https://www10120ug.sakura.ne.jp
 
 !SLIDE
 
