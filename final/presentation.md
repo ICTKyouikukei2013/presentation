@@ -73,7 +73,7 @@
 !SLIDE
 ## 背景(1/2)
 <img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学(以下、未来大)にはPBL*型の授業として<font color = #ff0000>高度ICT演習</font>がある
+- 公立はこだて未来大学(以下、未来大)にはPBL\*型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 <p style="font-size:63%;margin-left:10px;"><b>\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p></b>
@@ -140,17 +140,12 @@
 
 ## 一般的なeポートフォリオシステム
 <ul>
-<li>eポートフォリオは<font color = #ff0000>学習者の学習活動の可視化が可能</font>
+	<li>システムを用い学習目標を立てることができる</li>
+	<li>法政大学ではレポートの代わりに導入している例もある</li>
+	<li>大学ごとにeポートフォリオシステムを構築しなければならない</li>
 </ul>
-<ul>
-<li>未来大で行われる能動的な学習には支援するシステムがない
-<ul>
-<li class="li-rightarrow">成果物が残らないので学生が後に振り返りが出来ない</li>
-<li class="li-rightarrow">教員も学生の学習を確認が出来ないためアドバイスが出来ない</li>
-</ul>
-</li>
-</ul>
-
+</br></br>
+<p><style="font-size=5%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</style></p>
 
 !SLIDE
 <!-- ## 紙のポートフォリオと比較して
