@@ -9,9 +9,9 @@
 
 ## 高度ICT演習向け<br>eポートフォリオシステムの開発 
 <style>
-	#meibo{
-		margin-top: 10px;
-	}
+  #meibo{
+    margin-top: 10px;
+  }
 </style>
 
 <table id="meibo">
@@ -90,11 +90,12 @@
 </div>
 <div style="width:50%; margin:0em e3m;">
 
-### 能動的な学習(例: PBL)
+### 能動的な学習(例: PBL*)
 * 学習者が自主的に問題設定し、</br>活動する
 * 活動過程を含めた評価が必要
 </div></div>
 <img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
+<p style="font-size:63%;margin-left:10px;"><b>\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p></b>
 
 !SLIDE
 
@@ -116,7 +117,7 @@
 <ul>
 <li>受動的な学習の中で、未来大ではMoodle\*を導入している。</li></ul>
 </br></br>
-<p><style="font-size:5%;margin-left:50px;">\*Moodle: CMS(Course Management System)の一種</font></p>
+<p style="font-size:75%;margin-left:10px;"><b>\*Moodle: CMS(Course Management System)の一種</p></b>
 
 !SLIDE
 
