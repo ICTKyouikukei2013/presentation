@@ -92,8 +92,17 @@
 ### 能動的な学習(例: PBL)
 * 学習者が自主的に問題設定し、</br>活動する
 * 活動過程を含めた評価が必要
-</div></div>
-<img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
+</div>
+</div>
+<div style="display:-webkit-box;display:-moz-box;">
+<div style="width:50%; margin:0em 1em;">
+<img src="img/5430587649_7669371a8f.jpg" style="width:70%;height:70%;">
+</div>
+<div style="width:50%; margin:0em 1em;">
+<img src="img/PBL3.jpg" style="width:70%;height:70%;">
+</div>
+</div>
+
 
 !SLIDE
 
