@@ -9,9 +9,9 @@
 
 ## 高度ICT演習向け<br>eポートフォリオシステムの開発 
 <style>
-	#meibo{
-		margin-top: 10px;
-	}
+  #meibo{
+    margin-top: 10px;
+  }
 </style>
 
 <table id="meibo">
@@ -73,11 +73,10 @@
 !SLIDE
 ## 背景(1/2)
 <img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学(以下、未来大)の特徴的な授業にPBLがありPBL型の授業として<font color = #ff0000>高度ICT演習</font>がある
+- 公立はこだて未来大学(以下、未来大)にはPBL*型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
-
-
+<p style="font-size:63%;margin-left:10px;"><b>\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p></b>
 
 !SLIDE
 ## 背景(2/2)
@@ -93,8 +92,17 @@
 ### 能動的な学習(例: PBL)
 * 学習者が自主的に問題設定し、</br>活動する
 * 活動過程を含めた評価が必要
-</div></div>
-<img src="img/5430587649_7669371a8f.jpg" style="width:30%;height:30%;margin:0px 90px;">
+</div>
+</div>
+<div style="display:-webkit-box;display:-moz-box;">
+<div style="width:50%; margin:0em 1em;">
+<img src="img/5430587649_7669371a8f.jpg" style="width:70%;height:70%;">
+</div>
+<div style="width:50%; margin:0em 1em;">
+<img src="img/PBL3.jpg" style="width:70%;height:70%;">
+</div>
+</div>
+
 
 !SLIDE
 
@@ -116,7 +124,7 @@
 <ul>
 <li>受動的な学習の中で、未来大ではMoodle\*を導入している。</li></ul>
 </br></br>
-<p><style="font-size:5%;margin-left:50px;">\*Moodle: CMS(Course Management System)の一種</font></p>
+<p style="font-size:75%;margin-left:10px;"><b>\*Moodle: CMS(Course Management System)の一種</p></b>
 
 !SLIDE
 
