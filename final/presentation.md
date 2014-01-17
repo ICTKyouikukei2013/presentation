@@ -200,12 +200,15 @@
 - 学習者が<font color = #ff0000>学習目標をたて</font>て、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
  - ゴールの達成度をグラフで表示する
+ <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;">
 
 !SLIDE
 ## 日誌投稿機能
 - 日々の活動を通して、<font color = #ff0000>新たな発見や学び、困ったこと</font>をシステムに登録する
  - 短い文章で、システムに蓄積できる
  - ゴールと日誌の関連付けがされる
+
+ <img src="img/screendiagram/personalrogo-01.png" style="width:53%;height:53%;">
 
 !SLIDE
 ## 成果物管理機能
@@ -217,7 +220,10 @@
 ## eポートフォリオ作成機能
 - <font color = #ff0000>行ってきた活動を振り返り</font>、ひとつの形式にまとめる機能
  - ゴール、日誌、成果物からそれぞれ載せることができる
+ - エクスポートすることができる
  - 公開設定により、学外の人向けにeポートフォリオを作成することができる
+ 
+  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;">
 
 !SLIDE
 ## フィードバック機能
