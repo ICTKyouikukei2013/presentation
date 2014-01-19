@@ -190,6 +190,13 @@
 
 !SLIDE
 
+## ペーパープロトタイプ１回目
+<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
+
+!SLIDE
+
 ## 洗いだした機能一覧
 - ゴール管理機能
 - 日誌投稿機能
@@ -200,14 +207,14 @@
 
 !SLIDE
 ## ゴール管理機能
-- 学習者が<font color = #ff0000>学習目標をたて</font>て、目標達成までの過程を可視化する機能
+- 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
  - ゴールの達成度をグラフで表示する
  <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;">
 
 !SLIDE
 ## 日誌投稿機能
-- 日々の活動を通して、<font color = #ff0000>新たな発見や学び、困ったこと</font>をシステムに登録する
+- 日々の活動をから、<font color = #ff0000>新たな発見や学び、困ったこと</font>を投稿できる
  - 短い文章で、システムに蓄積できる
  - ゴールと日誌の関連付けがされる
 
@@ -225,7 +232,7 @@
 - <font color = #ff0000>行ってきた活動を振り返り</font>、ひとつの形式にまとめる機能
  - ゴール、日誌、成果物からそれぞれ載せることができる
  - エクスポートすることができる
- - 公開設定により、学外の人向けにeポートフォリオを作成することができる
+ - 学外の人向けにeポートフォリオを作成することができる
  
   <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;">
 
@@ -254,13 +261,6 @@
 <center>
 <img src="img/portbacker.png" style="width:53%;height:53%;">
 </center>
-
-!SLIDE
-
-## ペーパープロトタイプ１回目
-<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
 
 !SLIDE
 
