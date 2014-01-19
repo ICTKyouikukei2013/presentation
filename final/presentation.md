@@ -197,6 +197,12 @@
 
 !SLIDE
 
+## ペーパープロトタイプ２回目
+- 実装するシステムをメンバー間で共有するために画面設計を行った
+<img style="width:100%;" src="img/goal.png" align = "center">
+
+!SLIDE
+
 ## 洗いだした機能一覧
 - ゴール管理機能
 - 日誌投稿機能
@@ -246,6 +252,7 @@
 !SLIDE
 
 ## PDCAサイクルと機能の対応
+<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
 ### Plan  
   <span class="test"> ゴール管理機能</span>
 ### Do
@@ -257,18 +264,13 @@
 ### Action
   <span class="test"> フィードバック機能</span>
 
-!SLIDE
+<!--
 
 ## システム全体図
 <center>
 <img src="img/portbacker.png" style="width:53%;height:53%;">
 </center>
-
-!SLIDE
-
-## ペーパープロトタイプ２回目
-- 実装するシステムをメンバー間で共有するために画面設計を行った
-<img style="width:100%;" src="img/goal.png" align = "center">
+ -->
 
 !SLIDE
 
