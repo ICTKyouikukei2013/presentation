@@ -331,7 +331,7 @@
 !SLIDE
 
 ## 全体のスケジュール
-<img style="width:95%;" src="img/schedule.png" align = "center">
+<img style="width:75%" src="img/sukesuke.png" align = "center">
 
 !SLIDE
 
