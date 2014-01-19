@@ -210,7 +210,9 @@
 - 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
  - ゴールの達成度をグラフで表示する
- <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;">
+
+ <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;float:left">
+ <p style="font-size:75%;margin-left:10px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
 
 !SLIDE
 ## 日誌投稿機能
