@@ -280,7 +280,7 @@
 - 運用
  - サーバを用意し実環境での動作確認
 
-!SLIDE
+<!--!SLIDE
 
 ## 実装範囲 1/2 
 <table border>
@@ -382,7 +382,7 @@
 <td></td>
 </tr>
 
-</table>
+</table>-->
 
 !SLIDE
 
