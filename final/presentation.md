@@ -190,7 +190,60 @@
 
 !SLIDE
 
-## PDCAサイクル
+## ペーパープロトタイプ１回目
+<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
+
+!SLIDE
+
+## 洗いだした機能一覧
+- ゴール管理機能
+- 日誌投稿機能
+- 成果物管理機能
+- eポートフォリオ作成機能
+- フィードバック機能
+- グループ管理機能
+
+!SLIDE
+## ゴール管理機能
+- 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
+ - 長期的なゴールが入力できる
+ - ゴールの達成度をグラフで表示する
+ <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;">
+
+!SLIDE
+## 日誌投稿機能
+- 日々の活動をから、<font color = #ff0000>新たな発見や学び、困ったこと</font>を投稿できる
+ - 短い文章で、システムに蓄積できる
+ - ゴールと日誌の関連付けがされる
+
+ <img src="img/screendiagram/personalrogo-01.png" style="width:53%;height:53%;">
+
+!SLIDE
+## 成果物管理機能
+- 活動によって生成された成果物をシステムに蓄積する
+ - システムへPDFやソースコードのアップロードなどが行える
+ - Webdav機能<!--多分伝わらない-->で、ファイルソフトを使ってアップロードできる
+   <img src="img/d&dImage.png" style="width:72%;height:72%;">
+
+!SLIDE
+## eポートフォリオ作成機能
+- <font color = #ff0000>行ってきた活動を振り返り</font>、ひとつの形式にまとめる機能
+ - ゴール、日誌、成果物からそれぞれ載せることができる
+ - エクスポートすることができる
+ - 学外の人向けにeポートフォリオを作成することができる
+ 
+  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;">
+
+!SLIDE
+## フィードバック機能
+- 教員が、学習者の学習状況を把握し、指導するのを支援する機能
+ - 学習者が作成したeポートフォリオへコメントをする
+
+!SLIDE
+
+## PDCAサイクルと機能の対応
 ### Plan  
   <span class="test"> ゴール管理機能</span>
 ### Do
@@ -208,13 +261,6 @@
 <center>
 <img src="img/portbacker.png" style="width:53%;height:53%;">
 </center>
-
-!SLIDE
-
-## ペーパープロトタイプ１回目
-<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
 
 !SLIDE
 
