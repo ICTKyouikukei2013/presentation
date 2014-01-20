@@ -3,47 +3,40 @@
     <head>
         <meta charset="utf-8">
         <script src="js/jquery.min.js"></script>
-        <script src="js/flowtype.js"></script>
         <script src="brython/brython.js"></script>
+        <script src="js/utils.js"></script>
         <link rel="stylesheet" href="css/html5reset.css">
-         
         <link rel="stylesheet" href="css/fontsettings.css">
         <script type="text/javascript">
             $(function() {
                 brython();
-                //$('body').flowtype();
             });
         </script>
         <style>
             hr.pagebreak {
                 page-break-after: always;
             }
+            #zone {
+                padding: 1em;
+            }
         </style>
 
         <!-- Optional: google-code-prettify, a syntax highlighter -->
         <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
         <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
-
-        <!-- Optional: title of slide -->
-        <title></title>
     </head>
     <body>
         <div id='zone'>
         </div>
         <script type="text/python">
-            from slidelib import read_pages
+            from slidelib import read_pages, draw_handout
 
             page_datas, config_data = read_pages("presentation.md")
-            h = []
-            for i, (mk, _) in enumerate(page_datas):
-                h.append(mk)
-                h.append("""<div class="handout-page-num">%d</div>""" % (i + 1))
-                h.append("""<hr/>""")
-            doc['zone'].html = "".join(h)
+            t = config_data.get("document-title")
+            if t:
+                setTitle(t)
+            draw_handout(doc, 'zone', page_datas, config_data)
             prettyPrint() # optional, google-code-prettify
-            for _, scripts in page_datas:
-                for script in scripts:
-                    exec(script, globals())
         </script>
     </body>
 </html>
