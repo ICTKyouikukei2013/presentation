@@ -266,7 +266,7 @@
 ## フィードバック機能
 - 教員が、学習者の学習状況を把握し、指導するのを支援する機能
  - 学習者が作成したeポートフォリオへコメントをする
-<center><img src="img/feedback.png" style="width:55%;height:55%;"></center>
+ <img src="img/feedback.png" style="width:55%;height:55%;">
 
 !SLIDE
 
