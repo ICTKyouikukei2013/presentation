@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/flowtype-mod.js"></script>
+        <script src="brython/brython.js"></script>
+        <script src="js/utils.js"></script>
+        <link rel="stylesheet" href="css/html5reset.css">
+        <link rel="stylesheet" href="css/fontsettings.css">
+        <script type="text/javascript">
+            var aspectRatio = 1.33;
+            var resizeElements = function() {
+                $('.page').flowtype({ "aspactRatio": aspectRatio });
+                $('.slidefooter-page,.slidefooter-text').flowtype({ "onlyFontResizing": true, "aspactRatio": aspectRatio });
+            }
+            var changeAspectRatio = function(newRatio) {
+                aspectRatio = newRatio;
+                resizeElements();
+            };
+            $(function() {
+                brython();
+                resizeElements();
+                $(window).resize(function(){ resizeElements(); });
+            });
+        </script>
+        <style>
+            .page {
+                position: relative;
+                overflow: hidden;
+                page-break-after: always;
+            }
+            .slidefooter-page {
+                position: absolute;
+                bottom: 0;
+                z-index: -2;
+            }
+            .slidefooter-text {
+                position: absolute;
+                bottom: 0;
+                z-index: -2;
+            }
+        </style>
+
+        <!-- Optional: google-code-prettify, a syntax highlighter -->
+        <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+    </head>
+    <body>
+        <div id='zone'>
+        </div>
+        <script type="text/python">
+            from slidelib import read_pages, draw_printing
+
+            page_datas, config_data = read_pages("presentation.md")
+            a = config_data.get("aspect-ratio")
+            if a:
+                changeAspectRatio(a)
+            t = config_data.get("document-title")
+            if t:
+                setTitle(t)
+            draw_printing(doc, 'zone', page_datas, config_data)
+            prettyPrint() # optional, google-code-prettify
+        </script>
+    </body>
+</html>
+
