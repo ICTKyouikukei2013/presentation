@@ -262,7 +262,6 @@
  - ゴール、日誌、成果物からそれぞれ載せることができる
  - エクスポートすることができる
  - 学外の人向けにeポートフォリオを作成することができる
- 
   <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;">
 
 !SLIDE
@@ -272,7 +271,6 @@
  <img src="img/feedback.png" style="width:55%;height:55%;">
 
 !SLIDE
-
 ## PDCAサイクルと機能の対応
 <img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
 ### Plan  
@@ -290,8 +288,8 @@
   <p style="margin-left: 20pt">
   <span class="test"> フィードバック機能</span>
   </p>
-<!--
 
+<!--
 ## システム全体図
 <center>
 <img src="img/portbacker.png" style="width:53%;height:53%;">
@@ -303,10 +301,8 @@
 ## 後期の活動
 - 実装範囲の設定
 - 開発
-
 <!-- - Gitによる分散開発
  - Issueを使ったチケット駆動開発 -->
-
 - 運用
 <!-- - サーバを用意し実環境での動作確認 -->
 
