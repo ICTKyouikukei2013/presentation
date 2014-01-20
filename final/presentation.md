@@ -86,6 +86,7 @@
 - 公立はこだて未来大学(以下、未来大)にはPBL\*型の授業として<font color = #ff0000>高度ICT演習</font>がある
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
+</br></br>
 <p style="font-size:63%;margin-left:10px;"><b>\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p></b>
 
 !SLIDE
@@ -152,7 +153,7 @@
 <ul>
 	<li>システムを用い学習目標を立てることができる</li>
 	<li>大学ごとにeポートフォリオシステムを構築しなければならない</li>
-	<li>法政大学ではレポートの代わりに導入している例もある</li>
+	<li>金沢工業大学では全体に導入している例もある</li>
 </ul>
 </br></br>
 <p><style="font-size=5%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</style></p>
@@ -175,23 +176,25 @@
 
 - 要求を引き出しながら適応的に開発する必要がある
 
+<!--
 <img style="width:20%; margin: 0 20px 0 20px;" style = "float:right" src="img/SakaiLogolg.jpg" >
 <img style="width:30%"  style="float:right" src="img/Mahara_logo.png" >
-
+-->
 
 
 !SLIDE
 
 ## 前期の活動
 - 高度ICT演習の担当教員によるeポートフォリオ要求定義会議
-- ICTコース長にヒアリング
-- ペーパープロトタイプの作成
-- 再度ICTコース長にヒアリング
+- 第1回ヒヤリング
+- ペーパープロトタイプ1回目
+- 第2回ヒアリング
+- ペーパープロトタイプ2回目
 - 機能の洗い出し
-- ヒアリング結果からペーパープロトタイプを再度作成
+
 !SLIDE
 
-## ヒアリング（5月末）
+## 第1回ヒアリング
 高度ICT演習の担当教員にeポートフォリオシステムについての会議を開いた
 
 - 高度ICT演習向けの開発をして欲しい
@@ -273,16 +276,20 @@
 ## PDCAサイクルと機能の対応
 <img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
 ### Plan  
-  <span class="test"> ゴール管理機能</span>
+  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
 ### Do
+  <p style="margin-left: 20pt">
   <span class="test"> 日誌投稿機能</span>
   </br>
   <span class="test"> 成果物管理機能</span>
+  </p>
 ### Check
-  <span class="test"> eポートフォリオ作成機能</span>
+  <p style="margin-left: 20pt">
+  <span class="test"> eポートフォリオ作成機能</span></p>
 ### Action
+  <p style="margin-left: 20pt">
   <span class="test"> フィードバック機能</span>
-
+  </p>
 <!--
 
 ## システム全体図
@@ -296,10 +303,12 @@
 ## 後期の活動
 - 実装範囲の設定
 - 開発
- - Gitによる分散開発
- - Issueを使ったチケット駆動開発
+
+<!-- - Gitによる分散開発
+ - Issueを使ったチケット駆動開発 -->
+
 - 運用
- - サーバを用意し実環境での動作確認
+<!-- - サーバを用意し実環境での動作確認 -->
 
 !SLIDE
 
