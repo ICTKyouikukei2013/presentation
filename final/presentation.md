@@ -64,7 +64,7 @@
 <div style="width:50%; margin:0em e3m;">
 - 高度ICT演習について
 - 未来大のPBLにおける問題
-- 一般的なポートフォリオシステム
+- 一般的なeポートフォリオシステム
 - 前期の活動
  - 要件収集
  - ヒアリング
@@ -87,7 +87,7 @@
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 </br></br>
-<p style="font-size:63%;margin-left:10px;"><b>\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p></b>
+<p style="font-size:63%;margin-left:10px;">\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p>
 
 !SLIDE
 ## 背景(2/2)
@@ -135,7 +135,7 @@
 <ul>
 <li>受動的な学習の中で、未来大ではMoodle\*を導入している。</li></ul>
 </br></br>
-<p style="font-size:75%;margin-left:10px;"><b>\*Moodle: CMS(Course Management System)の一種</p></b>
+<p style="font-size:75%;margin-left:10px;">\*Moodle: CMS(Course Management System)の一種</p>
 
 !SLIDE
 
@@ -156,7 +156,7 @@
 	<li>金沢工業大学では全体に導入している例もある</li>
 </ul>
 </br></br>
-<p><style="font-size=5%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</style></p>
+<p style="font-size=63%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</p>
 
 !SLIDE
 <!-- ## 紙のポートフォリオと比較して
@@ -172,8 +172,8 @@
 
 <img style="width:100%;" src="img/hikaku_1.png"><br>
 
-<font size="2">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」 (法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
-
+<font size="3">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」</br>(法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
+</br></br>
 - 要求を引き出しながら適応的に開発する必要がある
 
 <!--
@@ -186,7 +186,7 @@
 
 ## 前期の活動
 - 高度ICT演習の担当教員によるeポートフォリオ要求定義会議
-- 第1回ヒヤリング
+- 第1回ヒアリング
 - ペーパープロトタイプ1回目
 - 第2回ヒアリング
 - ペーパープロトタイプ2回目
