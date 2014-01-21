@@ -296,6 +296,12 @@
 <!--  -->
 
 !SLIDE
+## 実装範囲の設定
+
+<img style="width:100%; margin-top:8%;" src="img/tellfn.png" align = "center">
+
+
+!SLIDE
 
 ## 後期の活動
 - 実装範囲の設定
