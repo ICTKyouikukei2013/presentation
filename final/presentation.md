@@ -258,8 +258,8 @@
  - 長期的なゴールが入力できる
  - ゴールの達成度をバーンアップチャートで表示する
 
- <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;float:left">
- <p style="font-size:75%;margin-left:10px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
+ <img src="img/screendiagram/goalrogo-03.png" style="width:40%;height:40%;float:left">
+ <p style="font-size:75%;margin-left:40px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
 
 !SLIDE
 ## 日誌投稿機能
@@ -267,7 +267,7 @@
  - 短い文章で、システムに蓄積できる
  - ゴールと日誌の関連付けがされる
 
- <img src="img/screendiagram/personalrogo-01.png" style="width:53%;height:53%;">
+ <img src="img/screendiagram/personalrogo-01.png" style="width:38%;height:38%;">
 
 !SLIDE
 ## 成果物管理機能
@@ -283,13 +283,13 @@
  - エクスポートすることができる
  - 学外の人向けにeポートフォリオを作成することができる
  
-  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;">
+  <img src="img/screendiagram/portfoliologo-02.png" style="width:35%;height:35%;">
 
 !SLIDE
 ## フィードバック機能
 - 教員が、学習者の学習状況を把握し、<font color = #ff0000>指導するのを支援する</font>機能
  - 学習者が作成したeポートフォリオへコメントをする
- <img src="img/feedback.png" style="width:55%;height:55%;">
+ <img src="img/feedback.png" style="width:45%;height:45%;">
 
 <!-- -->
 <!-- ## システム全体図 -->
