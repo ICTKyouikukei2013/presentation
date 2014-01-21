@@ -116,7 +116,6 @@
 </div>
 </div>
 
-
 !SLIDE
 
 ## 問題
@@ -128,14 +127,14 @@
 <li class="li-rightarrow"><font color = #ff0000>学生がどのように学習しているかわからない</font></li>
 </ul>
 </li>
-<li>教員は学生に合わせた指導ができない。
+<li>教員は学生に合わせた指導ができない
 <ul>
 <li class="li-rightarrow"><font color = #ff0000>学生ごとに活動が異なるため</font></li>
 </ul>
 </li>
 </ul>
 <ul>
-<li>受動的な学習の中で、未来大ではMoodle\*を導入している。</li></ul>
+<li>受動的な学習の中で、未来大ではMoodle\*を導入している</li></ul>
 </br></br>
 <p style="font-size:75%;margin-left:10px;">\*Moodle: CMS(Course Management System)の一種</p>
 
@@ -156,9 +155,10 @@
 	<li>システムを用い学習目標を立てることができる</li>
 	<li>大学ごとにeポートフォリオシステムを構築しなければならない</li>
 	<li>金沢工業大学では全体に導入している例もある</li>
+  <li>自由に利用できるように公開されているものとしてMahara, sakaiなどがある</li>
 </ul>
 </br></br>
-<p style="font-size=63%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</p>
+<font size='4'>eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの
 
 !SLIDE
 <!-- ## 紙のポートフォリオと比較して -->
@@ -195,11 +195,11 @@
 !SLIDE
 
 ## 第1回ヒアリング
-高度ICT演習の担当教員にeポートフォリオシステムについての会議を開いた
+- 高度ICT演習の担当教員にeポートフォリオシステムについてヒアリングを行った
 
-- 高度ICT演習向けの開発をして欲しい
-- PDCAサイクルを回せるようにして欲しい
-- 動くシステムを定期的に見せて欲しい
+  - 高度ICT演習向けの開発をして欲しい
+  - PDCAサイクルを回せるようにして欲しい
+  - 動くシステムを定期的に見せて欲しい
 
 !SLIDE
 
@@ -210,7 +210,7 @@
 
 !SLIDE
 
-## ヒアリング(２回目)
+## 第2回ヒアリング
 - ７月にICTコース長にヒアリング
   - 学生はどのように使うのか
   - 先生はどのように使うのか
@@ -233,10 +233,30 @@
 - グループ管理機能
 
 !SLIDE
+
+## PDCAサイクルと機能の対応
+<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
+### Plan  
+  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
+### Do
+  <p style="margin-left: 20pt">
+  <span class="test"> 日誌投稿機能</span>
+  </br>
+  <span class="test"> 成果物管理機能</span>
+  </p>
+### Check
+  <p style="margin-left: 20pt">
+  <span class="test"> eポートフォリオ作成機能</span></p>
+### Action
+  <p style="margin-left: 20pt">
+  <span class="test"> フィードバック機能</span>
+  </p>
+
+!SLIDE
 ## ゴール管理機能
 - 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
- - ゴールの達成度をグラフで表示する
+ - ゴールの達成度をバーンアップチャートで表示する
 
  <img src="img/screendiagram/goalrogo-03.png" style="width:53%;height:53%;float:left">
  <p style="font-size:75%;margin-left:10px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
@@ -267,29 +287,10 @@
 
 !SLIDE
 ## フィードバック機能
-- 教員が、学習者の学習状況を把握し、指導するのを支援する機能
+- 教員が、学習者の学習状況を把握し、<font color = #ff0000>指導するのを支援する</font>機能
  - 学習者が作成したeポートフォリオへコメントをする
  <img src="img/feedback.png" style="width:55%;height:55%;">
 
-!SLIDE
-
-## PDCAサイクルと機能の対応
-<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
-### Plan  
-  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
-### Do
-  <p style="margin-left: 20pt">
-  <span class="test"> 日誌投稿機能</span>
-  </br>
-  <span class="test"> 成果物管理機能</span>
-  </p>
-### Check
-  <p style="margin-left: 20pt">
-  <span class="test"> eポートフォリオ作成機能</span></p>
-### Action
-  <p style="margin-left: 20pt">
-  <span class="test"> フィードバック機能</span>
-  </p>
 <!-- -->
 <!-- ## システム全体図 -->
 <!-- <center> -->
@@ -364,10 +365,10 @@
 
 ## 学び
 <ul>
-<li>演習を通して自分の知らなかった技術を知ることができたので視野が広がった。</br>(B4・情報デザインコース)
-<li>チケット駆動開発とGitの仕組みについて知れた。</br>(B2・情報システムコース)
-<li>ソフトウェア開発の一連の流れを体験することができた。</br>(B2・情報システムコース)
-<li>Gitを利用した分散開発の仕組みを知ることができた。</br>(B2・情報システムコース)
+<li>演習を通して自分の知らなかった技術を知ることができたので視野が広がった</br>(B4・情報デザインコース)
+<li>チケット駆動開発とGitの仕組みについて知れた</br>(B2・情報システムコース)
+<li>ソフトウェア開発の一連の流れを体験することができた</br>(B2・情報システムコース)
+<li>Gitを利用した分散開発の仕組みを知ることができた</br>(B2・情報システムコース)
 </ul>
 
 !SLIDE
