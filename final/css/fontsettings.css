@@ -65,11 +65,6 @@ ul > li.li-ballot-checked:before {
 ul > li.li-ballot:before {
     font-family: FontAwesome;
     content: "\f096";
-<<<<<<< Updated upstream
-=======
-ul li.li-rightarrow:before {
-    content: "\279C";
->>>>>>> Stashed changes
 }
 
 p.listing-indent {
