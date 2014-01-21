@@ -1,6 +1,8 @@
 {
+    "document-title": "後期最終成果発表会",
     "footer-text": "2014/1/24　後期最終成果発表会", 
-    "show-footer-in-tiatle-page": false
+    "aspect-ratio": 1.33,
+    "show-footer-in-title-page": false
 }
 
 !SLIDE
@@ -143,9 +145,9 @@
 - 高度ICT演習における
   - 学生の<font color = #ff0000>学習の振り返り</font>及び<font color = #ff0000>担当教員の指導を支援する</font>
   - 担当教員と学生からeポートフォリオシステムの要件を収集し、</br>取り入れながら開発をする
-<!--
-- プロジェクトの進め方や最新技術に触れながら開発に関する知識を修得する(教育系PBLの目的)
- -->
+<!-- -->
+<!-- - プロジェクトの進め方や最新技術に触れながら開発に関する知識を修得する(教育系PBLの目的) -->
+<!-- -->
 
 !SLIDE
 
@@ -159,13 +161,13 @@
 <p style="font-size=63%;">eポートフォリオ: 活動過程を人に見せるために、活動の証拠となるものや生成した成果物を載せたもの</p>
 
 !SLIDE
-<!-- ## 紙のポートフォリオと比較して
-* ネットワークを介したフィードバックや共同編集が可能
-* データが経年劣化しない
-* 大量のデータを一つのPCで管理できる
-
-<img style="width:320px;" src="img/2418668807_2928b77d03.jpg" align = "center">
-<br><p align = center >http://www.flickr.com/photos/lfr/2418668807/</p> -->
+<!-- ## 紙のポートフォリオと比較して -->
+<!-- * ネットワークを介したフィードバックや共同編集が可能 -->
+<!-- * データが経年劣化しない -->
+<!-- * 大量のデータを一つのPCで管理できる -->
+<!--  -->
+<!-- <img style="width:320px;" src="img/2418668807_2928b77d03.jpg" align = "center"> -->
+<!-- <br><p align = center >http://www.flickr.com/photos/lfr/2418668807/</p> -->
 
 ## 既存のeポートフォリオ 
 - 既存のeポートフォリオシステムを比較した
@@ -176,10 +178,8 @@
 </br></br>
 - 要求を引き出しながら適応的に開発する必要がある
 
-<!--
-<img style="width:20%; margin: 0 20px 0 20px;" style = "float:right" src="img/SakaiLogolg.jpg" >
-<img style="width:30%"  style="float:right" src="img/Mahara_logo.png" >
--->
+<!-- <img style="width:20%; margin: 0 20px 0 20px;" style = "float:right" src="img/SakaiLogolg.jpg" > -->
+<!-- <img style="width:30%"  style="float:right" src="img/Mahara_logo.png" > -->
 
 
 !SLIDE
@@ -290,13 +290,12 @@
   <p style="margin-left: 20pt">
   <span class="test"> フィードバック機能</span>
   </p>
-<!--
-
-## システム全体図
-<center>
-<img src="img/portbacker.png" style="width:53%;height:53%;">
-</center>
- -->
+<!-- -->
+<!-- ## システム全体図 -->
+<!-- <center> -->
+<!-- <img src="img/portbacker.png" style="width:53%;height:53%;"> -->
+<!-- </center> -->
+<!--  -->
 
 !SLIDE
 
@@ -304,8 +303,8 @@
 - 実装範囲の設定
 - 開発
 
-<!-- - Gitによる分散開発
- - Issueを使ったチケット駆動開発 -->
+<!-- - Gitによる分散開発 -->
+<!-- - Issueを使ったチケット駆動開発 -->
 
 - 運用
 <!-- - サーバを用意し実環境での動作確認 -->
@@ -383,7 +382,5 @@
  - ペーパープロトタイプ
 - 後期の活動
  - 開発
-<!-- 
-目次と同じ感じですω・
--->
+<!-- 目次と同じ感じですω・ -->
 
