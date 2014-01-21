@@ -124,19 +124,16 @@
 <li>未来大の高度ICT演習には能動的な学習を支援するシステムが無い
 <ul>
 <li class="li-rightarrow">活動記録がないので見返す事ができない</li>
-<li class="li-rightarrow"><font color = #ff0000>学生がどのように学習しているかわからない</font></li>
+<li class="li-rightarrow"><font color = #ff0000>学生間で、どのように学習しているか共有できていない</font></li>
+<li><font color = #ff0000>学生ごとに活動が異なるため、教員は学生に合わせた指導ができない</font></li>
+
 </ul>
 </li>
-<li>教員は学生に合わせた指導ができない
-<ul>
-<li class="li-rightarrow"><font color = #ff0000>学生ごとに活動が異なるため</font></li>
-</ul>
-</li>
-</ul>
+
 <ul>
 <li>受動的な学習の中で、未来大ではMoodle\*を導入している</li></ul>
 </br></br>
-<p style="font-size:75%;margin-left:10px;">\*Moodle: CMS(Course Management System)の一種</p>
+<p style="font-size:75%;margin-left:10px;　">\*Moodle: CMS(Course Management System)の一種</p>
 
 !SLIDE
 
