@@ -9,6 +9,8 @@
 body {
     font-size: 18px;
     line-height: 26px;
+    /*文字色の変更*/
+    color: #3e3a39;
 }
 h1,h2,h3,h4,h5,h6,p {
     font-family: inherit;
