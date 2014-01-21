@@ -3,21 +3,42 @@
     <head>
         <meta charset="utf-8">
         <script src="js/jquery.min.js"></script>
+        <script src="js/flowtype-mod.js"></script>
         <script src="brython/brython.js"></script>
         <script src="js/utils.js"></script>
         <link rel="stylesheet" href="css/html5reset.css">
         <link rel="stylesheet" href="css/fontsettings.css">
         <script type="text/javascript">
+            var aspectRatio = 1.33;
+            var resizeElements = function() {
+                $('.page').flowtype({ "aspactRatio": aspectRatio });
+                $('.slidefooter-page,.slidefooter-text').flowtype({ "onlyFontResizing": true, "aspactRatio": aspectRatio });
+            }
+            var changeAspectRatio = function(newRatio) {
+                aspectRatio = newRatio;
+                resizeElements();
+            };
             $(function() {
                 brython();
+                resizeElements();
+                $(window).resize(function(){ resizeElements(); });
             });
         </script>
         <style>
-            hr.pagebreak {
+            .page {
+                position: relative;
+                overflow: hidden;
                 page-break-after: always;
             }
-            #zone {
-                padding: 1em;
+            .slidefooter-page {
+                position: absolute;
+                bottom: 0;
+                z-index: -2;
+            }
+            .slidefooter-text {
+                position: absolute;
+                bottom: 0;
+                z-index: -2;
             }
         </style>
 
@@ -29,13 +50,16 @@
         <div id='zone'>
         </div>
         <script type="text/python">
-            from slidelib import read_pages, draw_handout
+            from slidelib import read_pages, draw_printing
 
             page_datas, config_data = read_pages("presentation.md")
+            a = config_data.get("aspect-ratio")
+            if a:
+                changeAspectRatio(a)
             t = config_data.get("document-title")
             if t:
                 setTitle(t)
-            draw_handout(doc, 'zone', page_datas, config_data)
+            draw_printing(doc, 'zone', page_datas, config_data)
             prettyPrint() # optional, google-code-prettify
         </script>
     </body>

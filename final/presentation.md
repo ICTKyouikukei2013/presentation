@@ -1,6 +1,8 @@
 {
+    "document-title": "後期最終成果発表会",
     "footer-text": "2014/1/24　後期最終成果発表会", 
-    "show-footer-in-tiatle-page": false
+    "aspect-ratio": 1.33,
+    "show-footer-in-title-page": false
 }
 
 !SLIDE

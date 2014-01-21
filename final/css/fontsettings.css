@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/FontAwesome.otf');
+  src: url('../font/fontawesome-webfont.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     font-size: 18px;
     line-height: 26px;
@@ -38,24 +46,30 @@ li {
 ul {
     list-style: none;
 }
-ul li:before {
-    content: "\25CB";
-    font-size: 100%;
+ul > li:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    font-size: 80%;
     padding-right: 5px;
 }
-ul li ul li:before {
-    content: "\25CF";
-    font-size: 100%;
+ul > li ul > li:before {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: 80%;
     padding-right: 5px;
 }
-ul li.li-ballot-checked:before {
-    content: "\2611";
+ul > li.li-ballot-checked:before {
+    font-family: FontAwesome;
+    content: "\f046";
 }
-ul li.li-ballot:before {
-    content: "\2610";
-}
+ul > li.li-ballot:before {
+    font-family: FontAwesome;
+    content: "\f096";
+<<<<<<< Updated upstream
+=======
 ul li.li-rightarrow:before {
     content: "\279C";
+>>>>>>> Stashed changes
 }
 
 p.listing-indent {
@@ -68,10 +82,7 @@ p.listing-indent {
     font-size: 1em;
 }
 
-#zone {
-    padding: 2em;
-}
-#slidefooter-page {
+.slidefooter-page {
     text-align: right;
     font-size: 1.5em;
     color: #444;
@@ -80,7 +91,7 @@ p.listing-indent {
     width: 10%;
     height:10%;
 }
-#slidefooter-text {
+.slidefooter-text {
     text-align: center;
     font-size: 0.7em;
     color: #444;
