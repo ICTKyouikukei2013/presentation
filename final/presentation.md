@@ -233,6 +233,26 @@
 - グループ管理機能
 
 !SLIDE
+
+## PDCAサイクルと機能の対応
+<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
+### Plan  
+  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
+### Do
+  <p style="margin-left: 20pt">
+  <span class="test"> 日誌投稿機能</span>
+  </br>
+  <span class="test"> 成果物管理機能</span>
+  </p>
+### Check
+  <p style="margin-left: 20pt">
+  <span class="test"> eポートフォリオ作成機能</span></p>
+### Action
+  <p style="margin-left: 20pt">
+  <span class="test"> フィードバック機能</span>
+  </p>
+
+!SLIDE
 ## ゴール管理機能
 - 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
@@ -271,25 +291,6 @@
  - 学習者が作成したeポートフォリオへコメントをする
  <img src="img/feedback.png" style="width:55%;height:55%;">
 
-!SLIDE
-
-## PDCAサイクルと機能の対応
-<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
-### Plan  
-  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
-### Do
-  <p style="margin-left: 20pt">
-  <span class="test"> 日誌投稿機能</span>
-  </br>
-  <span class="test"> 成果物管理機能</span>
-  </p>
-### Check
-  <p style="margin-left: 20pt">
-  <span class="test"> eポートフォリオ作成機能</span></p>
-### Action
-  <p style="margin-left: 20pt">
-  <span class="test"> フィードバック機能</span>
-  </p>
 <!-- -->
 <!-- ## システム全体図 -->
 <!-- <center> -->
