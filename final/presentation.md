@@ -89,7 +89,7 @@
  - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
  - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
 </br></br>
-<p style="font-size:63%;margin-left:10px;">\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に学習を進めていく方法。</p>
+<p style="font-size:63%;margin-left:10px;">\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に行う学習方法。</p>
 
 !SLIDE
 ## 背景(2/2)
