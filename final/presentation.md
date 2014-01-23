@@ -246,7 +246,7 @@
  - 長期的なゴールが入力できる
  - ゴールの達成度をバーンアップチャート\*で表示する
 <tr>
- <img src="img/screendiagram/goalrogo-03.png" style="width:55%;height:55%;float:left">
+ <img src="img/screendiagram/goalrogo-03.png" style="width:55%;height:55%;float:left;border:solid thin;">
 </tr>
 <tr>
  <p style="font-size:75%;margin-left:40px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
@@ -258,14 +258,14 @@
  - 短い文章で、システムに蓄積できる
  - ゴールと日誌の関連付けがされる
 
- <img src="img/screendiagram/personalrogo-01.png" style="width:38%;height:38%;">
+ <img src="img/screendiagram/personalrogo-01.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 成果物管理機能
 - 学習活動によって作成した成果物をシステムに蓄積する
  - システムへPDFやソースコードのアップロードなどが行える
  - WebDAV機能で、ファイラーを使ってアップロードできる
-   <img src="img/d&dImage.png" style="width:72%;height:72%;">
+   <img src="img/d&dImage.png" style="width:72%;height:72%;border:solid thin;">
 
 !SLIDE
 ## eポートフォリオ作成機能
@@ -274,14 +274,14 @@
  - PDFを作成することができる
  - 学外の人向けにeポートフォリオを公開することができる
  
-  <img src="img/screendiagram/portfoliologo-02.png" style="width:35%;height:35%;">
+  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## フィードバック機能
 - 学習者が作成したeポートフォリオに対してコメントを記入する
  -想定する用途としては、教員が学習者の学習状況を把握し、<font color = #ff0000></br>指導に用いる</font>
 
- <img src="img/feedback.png" style="width:45%;height:45%;">
+ <img src="img/feedback.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 実装範囲の設定
