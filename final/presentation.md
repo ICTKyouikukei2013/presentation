@@ -111,7 +111,7 @@
 </div>
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em 1em;">
-<img src="img/lesson.jpg" style="width:70%;height:70%;">
+<img src="img/lecture.jpg" style="width:70%;height:70%;">
 </div>
 <div style="width:50%; margin:0em 1em;">
 <img src="img/PBL.jpg" style="width:70%;height:70%;">
