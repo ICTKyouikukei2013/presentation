@@ -63,10 +63,14 @@ ul > li ul > li:before {
 ul > li.li-ballot-checked:before {
     font-family: FontAwesome;
     content: "\f046";
+    font-size: 100%;
+    color: green;
 }
 ul > li.li-ballot:before {
     font-family: FontAwesome;
     content: "\f096";
+    font-size: 100%;
+    color:red;
 }
 
 p.listing-indent {

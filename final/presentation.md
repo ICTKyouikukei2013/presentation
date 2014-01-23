@@ -149,16 +149,17 @@
 
 !SLIDE
 ## 活動全体の概要
-- 使用技術の選定
-- ヒアリング(2回)
-- 機能の洗い出し
-- プロトタイプ作成(2回)
-- 開発
+-要求開発
+  - ヒアリング(2回)
+  - 機能の洗い出し
+  - プロトタイプ作成(2回)
+- 実装
   - 開発範囲の設定
-  - 開発体制
+  - 使用技術の選定
+- 開発体制
 
 !SLIDE
-## 使用技術の選定 
+## 既存のeポートフォリオシステムの調査
 - 既存のeポートフォリオシステムを比較した
 
 <img style="width:100%;" src="img/hikaku_1.png"><br>
@@ -207,20 +208,6 @@
 - eポートフォリオ作成機能
 - フィードバック機能
 - グループ管理機能
-
-<!--
-洗い出された
-抽出された
-引き出された
-抜き出された
-読み取れた
-汲み取れた
-
-
-## ヒアリング結果
-- 以下の機能が必要であることがわかった
--->
-
 
 !SLIDE
 
@@ -292,78 +279,68 @@
 ## 実装範囲の設定
 
 <img style="width:100%; margin-top:8%;" src="img/tellfn.png" align = "center">
-- <font color = #ff0000>ゴール設定、日誌投稿、eポートフォリオ作成機能</font>に力を入れて開発
+- <font color = #ff0000>ゴール設定、日誌投稿、eポートフォリオ作成機能</font>に力を入れて開発した
+- 成果物管理機能は一部機能を限定して開発した
 - フィードバック機能やグループ管理機能は開発しないことにした
 
 !SLIDE
 
 ## ゴール管理機能
-<div style="display:-webkit-box;display:-moz-box;">
-<div style="width:50%; margin:0em e3m;">
-- 実装予定だった機能
-  - 長期的なゴールの入力
-  - 短期的なゴールの入力
-  - グラフ表示
-  - ゴールの削除
-</div>
-
-<div style="width:50%; margin:0em e3m;">
-- 実装した機能
-  - <font color = #ff0000>長期的なゴールの入力</font>
-  - <font color = #ff0000>短期的なゴールの入力</font>
-  - <font color = #ff0000>グラフ表示</font>
-  - <font color = #ff0000>ゴールの削除</font>
-</div>
-</div>
+<ul>
+<li> 実装予定だった機能
+<ul>
+<li class="li-ballot-checked">長期的なゴールの入力</li> 
+<li class="li-ballot-checked"> 短期的なゴールの入力</li>
+<li class="li-ballot-checked"> グラフ表示</li>
+<li class="li-ballot-checked"> ゴールの削除</li>
+</ul>
+</ul>
 
 !SLIDE
 
 ## 日誌投稿機能
-<div style="display:-webkit-box;display:-moz-box;">
-<div style="width:50%; margin:0em e3m;">
-- 実装予定だった機能 
-  - 日誌の投稿
-  - 短期的なゴールとの結びつけ
-  - 日誌をゴールによって分類
-  - 他人の日誌を閲覧
-</div>
 
-<div style="width:50%; margin:0em e3m;">
-- 実装した機能
-  - <font color = #ff0000>日誌の投稿</font>
-  - <font color = #ff0000>短期的なゴールとの結びつけ</font>
-- 実装していない機能
-  - 日誌をゴールによって分類
-  - 他人の日誌を閲覧
-</div>
-</div>
+<ul>
+<li> 実装予定だった機能
+<ul>
+<li class="li-ballot-checked">日誌の投稿</li> 
+<li class="li-ballot-checked"> 短期的なゴールとの結びつけ</li>
+<li class="li-ballot">日誌をゴールによって分類</li>
+<li class="li-ballot"> 他人の日誌を閲覧</li>
+</ul>
+</ul>
 
 !SLIDE
 
 ## 成果物管理機能
-<div style="display:-webkit-box;display:-moz-box;">
-<div style="width:50%; margin:0em e3m;">
-- 実装予定だった機能
-  - ファイルアップロード
-  - WebDAV機能による</br>アップロード
-</div>
-
-<div style="width:50%; margin:0em e3m;">
-- 実装した機能
-  - <font color = #ff0000>Webからの</br>ファイルアップロード</font>
-- 実装していない機能
-  - WebDAV機能による</br>アップロード
-</div>
-</div>
+<ul>
+<li> 実装予定だった機能
+<ul>
+<li class="li-ballot-checked">Webからのファイルアップロード</li> 
+<li class="li-ballot">WebDAV機能によるアップロード</li>
+</ul>
+</ul>
 
 !SLIDE
 
 ## グループ管理機能
-- グループに持たせる役割を決めることができず、</br>グループ管理機能は実装しなかった
+<ul>
+<li class="li-ballot">グループ管理機能は実装しなかった
+<ul>
+<li>グループに持たせる役割を決めることができなかった</li>
+</ul>
+</li>
+</ul>
+
 </br>
 ## フィードバック機能
-- LDAP認証ができておらず他の人との連携ができなかった
-  - フィードバック機能は実装できなかった
+<ul>
+<li class="li-ballot">フィードバック機能は実装できなかった
+<ul>
+<li>LDAP認証ができておらず他の人との連携ができなかった</li>
+</ul>
+</li>
+</ul>
 
 !SLIDE
 
