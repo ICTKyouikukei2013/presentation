@@ -91,14 +91,14 @@
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em e3m;">
 <p> <b>受動的な学習(例: 座学)</b></p>
-* 座学の授業で教師による</br>一方的な知識伝達
-* 本学ではMoodle\*で支援</br>されている
+* 座学の授業で教師による<br>一方的な知識伝達
+* 本学ではMoodle\*で支援<br>されている
 </div>
 <div style="width:50%; margin:0em e3m;">
 
 <p> <b>能動的な学習(例: 高度ICT演習)</b></p>
-* 学習者が自主的に問題設定し、</br>活動する
-* 本学のPBLには学習を支援する</br>システムが無い
+* 学習者が自主的に問題設定し、<br>活動する
+* 本学のPBLには学習を支援する<br>システムが無い
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@
 </div>
 </div>
 
-<p style="font-size:75%;margin-left:10px;　">\*Moodle: CMS(Course Management System)の一種</p>
+<p style="font-size:75%;margin-left:10px;">\*Moodle: CMS(Course Management System)の一種</p>
 
 
 !SLIDE
@@ -121,9 +121,9 @@
 - 活動記録がないので見返すことができない
 - 学生間で、<font color = #ff0000>どのように学習しているか共有できていない</font>
 - 学生ごとに活動が異なるため、<font color = #ff0000>教員は学生に合わせた指導ができない</font>
-</br>
+<br>
 <center>&#11015;</center>
-</br>
+<br>
 <p>これらの問題はeポートフォリオシステムで解決することができる</p>
 
 !SLIDE
@@ -140,11 +140,11 @@
 ## 目的
 - 高度ICT演習における
   - 学生の<font color = #ff0000>学習の振り返り</font>及び<font color = #ff0000>担当教員の指導を支援する</font>
-  - 担当教員と学生からeポートフォリオシステムの要件を収集し、</br>取り入れながら開発をする
+  - 担当教員と学生からeポートフォリオシステムの要件を収集し、<br>取り入れながら開発をする
 
 !SLIDE
 ## 本プロジェクトでの開発工程
--要求開発
+- 要求開発
   - ヒアリング(2回)
   - 機能の洗い出し
   - プロトタイピング(2回)
@@ -158,41 +158,41 @@
 
 <table id="solid" width="100%" align="center" >
 <tr>
-	<th></th>
-	<th>成果物の共有<br>のしやすさ</th>
-	<th>(教育工学的)<br>振り返り</th>
-	<th>UI<br>(操作性)</th>
-	<th>公開<br>eポートフォリオ\*</th>
-	<th>カスタマイズ性</th>
+<th></th>
+<th>成果物の共有<br>のしやすさ</th>
+<th>(教育工学的)<br>振り返り</th>
+<th>UI<br>(操作性)</th>
+<th>公開<br>eポートフォリオ\*</th>
+<th>カスタマイズ性</th>
 </tr>
 <tr align="center">
 <td><img src="img/SakaiLogolg.jpg" width="60"></td>
-	<td>○</td>
-	<td>○</td>
-	<td>×</td>
-	<td>×</td>
-	<td><font color = #ff0000>×</font></td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td><font color = #ff0000>×</font></td>
 </tr>
 <tr align="center">
-	<td><img src="img/Mahara_logo.png" width="70"></td>
-	<td>○</td>
-	<td>×</td>
-	<td>○</td>
-	<td>○</td>
-	<td><font color = #ff0000>×</font></td>
+<td><img src="img/Mahara_logo.png" width="70"></td>
+<td>○</td>
+<td>×</td>
+<td>○</td>
+<td>○</td>
+<td><font color = #ff0000>×</font></td>
 </tr>
 </table>
 <br>
-<font style="font-size: 60%; margin-top: 1.5em;">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」</br>(法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
-</br></br>
+<font style="font-size: 60%; margin-top: 1.5em;">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」<br>(法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
+<br><br>
 - 既存のeポートフォリオシステムは使用せずに開発を行う
   - 要求を引き出しながら<font color = #ff0000>適応的に開発する必要がある</font>ため
-<p style="font-size:75%;margin-left:10px;　">\*公開eポートフォリオ：学外にも公開されるポートフォリオ</p>
+<p style="font-size:75%;margin-left:10px;">\*公開eポートフォリオ：学外にも公開されるポートフォリオ</p>
 
 !SLIDE
 
 ## 第1回ヒアリング
-- 高度ICTコースのコース長へeポートフォリオシステムについて</br>ヒアリングを行った
+- 高度ICTコースのコース長へeポートフォリオシステムについて<br>ヒアリングを行った
   - <font color = #ff0000>PDCAサイクルを回せるように</font>して欲しい
   - 動くシステムを定期的に見せて欲しい
 <br>
@@ -209,20 +209,20 @@
 ## PDCAサイクルと機能の対応
 <img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
 ### Plan  
-  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
+<p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
 ### Do
-  <p style="margin-left: 20pt">
-  <span class="test"> 日誌投稿機能</span>
-  </br>
-  <span class="test"> 成果物管理機能</span>
-  </p>
+<p style="margin-left: 20pt">
+<span class="test"> 日誌投稿機能</span>
+<br>
+<span class="test"> 成果物管理機能</span>
+</p>
 ### Check
-  <p style="margin-left: 20pt">
-  <span class="test"> eポートフォリオ作成機能</span></p>
+<p style="margin-left: 20pt">
+<span class="test"> eポートフォリオ作成機能</span></p>
 ### Action
-  <p style="margin-left: 20pt">
-  <span class="test"> フィードバック機能</span>
-  </p>
+<p style="margin-left: 20pt">
+<span class="test"> フィードバック機能</span>
+</p>
 
 !SLIDE
 
@@ -240,6 +240,7 @@
   - 機能のイメージがわかないので利用例が欲しい
   - 画面設計レベルでプロトタイピングして欲しい
   - 新しい機能の要求はなく、機能の具体化をして欲しい
+
 !SLIDE
 
 ## プロトタイピング２回目
@@ -260,45 +261,42 @@
 !SLIDE
 ## ゴール管理機能
 - 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
- - 長期的なゴールが入力できる
- - ゴールの達成度をバーンアップチャート\*で表示する
+  - 長期的なゴールが入力できる
+  - ゴールの達成度をバーンアップチャート\*で表示する
 <tr>
- <img src="img/screendiagram/goalrogo-03.png" style="width:55%;height:55%;float:left;border:solid thin;">
+<img src="img/screendiagram/goalrogo-03.png" style="width:55%;height:55%;float:left;border:solid thin;">
 </tr>
 <tr>
- <p style="font-size:75%;margin-left:40px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
+<p style="font-size:75%;margin-left:40px;margin-top:50px">\*ゴールの数が増減した場合でも進捗状況が<br>判断しやすい</p>
 </tr>
 
 !SLIDE
 ## 日誌投稿機能
 - 日々の活動をから、<font color = #ff0000>新たな発見や学び、困ったこと</font>を投稿できる
- - 短い文章で、システムに蓄積できる
- - ゴールと日誌の関連付けがされる
-
- <img src="img/screendiagram/personalrogo-01.png" style="width:45%;height:45%;border:solid thin;">
+  - 短い文章で、システムに蓄積できる
+  - ゴールと日誌の関連付けがされる
+<img src="img/screendiagram/personalrogo-01.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 成果物管理機能
 - 学習活動によって作成した成果物をシステムに蓄積する
- - システムへPDFやソースコードのアップロードなどが行える
- - WebDAV機能で、ファイラーを使ってアップロードできる
-   <img src="img/d&dImage.png" style="width:72%;height:72%;border:solid thin;">
+  - システムへPDFやソースコードのアップロードなどが行える
+  - WebDAV機能で、ファイラーを使ってアップロードできる
+<img src="img/d&dImage.png" style="width:72%;height:72%;border:solid thin;">
 
 !SLIDE
 ## eポートフォリオ作成機能
 - <font color = #ff0000>学習活動を振り返り</font>、ひとつの形式にまとめる機能
- - ゴール、日誌、成果物からそれぞれ載せることができる
- - PDFを作成することができる
- - 学外の人向けにeポートフォリオを公開することができる
- 
-  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;border:solid thin;">
+  - ゴール、日誌、成果物からそれぞれ載せることができる
+  - PDFを作成することができる
+  - 学外の人向けにeポートフォリオを公開することができる
+<img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## フィードバック機能
 - 学習者が作成したeポートフォリオに対してコメントを記入する
- -想定する用途としては、教員が学習者の学習状況を把握し、<font color = #ff0000></br>指導に用いる</font>
-
- <img src="img/feedback.png" style="width:45%;height:45%;border:solid thin;">
+  - 想定する用途としては、教員が学習者の学習状況を把握し、<font color = #ff0000><br>指導に用いる</font>
+<img src="img/feedback.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 実装範囲の設定
@@ -314,24 +312,19 @@
 
 ### ゴール管理機能
 <ul>
-<ul>
 <li class="li-ballot-checked">長期的なゴールの入力</li> 
 <li class="li-ballot-checked"> 短期的なゴールの入力</li>
 <li class="li-ballot-checked"> グラフ表示</li>
 <li class="li-ballot-checked"> ゴールの削除</li>
 </ul>
-</ul>
-
 
 ### 日誌投稿機能
 
-<ul>
 <ul>
 <li class="li-ballot-checked">日誌の投稿</li> 
 <li class="li-ballot-checked"> 短期的なゴールとの結びつけ</li>
 <li class="li-ballot">日誌をゴールによって分類</li>
 <li class="li-ballot"> 他人の日誌を閲覧</li>
-</ul>
 </ul>
 
 !SLIDE
@@ -340,23 +333,18 @@
 
 ### 成果物管理機能
 <ul>
-<ul>
 <li class="li-ballot-checked">Webからのファイルアップロード</li> 
 <li class="li-ballot">WebDAV機能によるアップロード</li>
 </ul>
-</ul>
 
-</br>
+<br>
 ### eポートフォリオ作成機能
-<ul>
 <ul>
 <li class="li-ballot-checked">成果物管理のみ載せる</li> 
 <li class="li-ballot">ゴール、日誌から載せる</li>
 <li class="li-ballot">エクスポートができる</li>
 <li class="li-ballot">学外向けに公開できる</li>
 </ul>
-</ul>
-
 
 !SLIDE
 
@@ -371,10 +359,9 @@
 </li>
 </ul>
 
-</br>
+<br>
 ### フィードバック機能
 <ul>
-</li>
 <li class="li-ballot">フィードバック機能は実装できなかった
 <ul>
 <li>LDAP認証ができておらず他の人との連携ができなかった</li>
@@ -382,6 +369,7 @@
 コメント機能は実装中
 </li>
 </ul>
+</li>
 </ul>
 
 !SLIDE
@@ -400,10 +388,10 @@
 
 ## 学び
 <ul>
-<li>演習を通して自分の知らなかった技術を知ることができたので</br><font color = #ff0000>視野が広がった</font></br>(B4・情報デザインコース)
-<li><font color = #ff0000>チケット駆動開発</font>とGitの仕組みについて知れた</br>(B2・情報システムコース)
-<li>ソフトウェア開発の<font color = #ff0000>一連の流れを体験する</font>ことができた</br>(B2・情報システムコース)
-<li>ペーパープロトタイピングの手法など<font color = #ff0000>デザインの技術を</br>取り入れることができた</font></br>(B4・情報システムコース)
+<li>演習を通して自分の知らなかった技術を知ることができたので<br><font color = #ff0000>視野が広がった</font><br>(B4・情報デザインコース)</li>
+<li><font color = #ff0000>チケット駆動開発</font>とGitの仕組みについて知れた<br>(B2・情報システムコース)</li>
+<li>ソフトウェア開発の<font color = #ff0000>一連の流れを体験する</font>ことができた<br>(B2・情報システムコース)</li>
+<li>ペーパープロトタイピングの手法など<font color = #ff0000>デザインの技術を<br>取り入れることができた</font><br>(B4・情報システムコース)</li>
 </ul>
 
 !SLIDE
