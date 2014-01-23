@@ -209,6 +209,26 @@
 
 !SLIDE
 
+## PDCAサイクルと機能の対応
+<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
+### Plan  
+  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
+### Do
+  <p style="margin-left: 20pt">
+  <span class="test"> 日誌投稿機能</span>
+  </br>
+  <span class="test"> 成果物管理機能</span>
+  </p>
+### Check
+  <p style="margin-left: 20pt">
+  <span class="test"> eポートフォリオ作成機能</span></p>
+### Action
+  <p style="margin-left: 20pt">
+  <span class="test"> フィードバック機能</span>
+  </p>
+
+!SLIDE
+
 ## プロトタイピング１回目
 - ホワイトボードを使い、<font color = #ff0000>メンバー間で話し合いながら</font>作成
 - iPadのPoPソフトを使ってデモができるようにした
