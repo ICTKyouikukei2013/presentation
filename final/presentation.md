@@ -9,14 +9,17 @@
 
 <center>
 
-## 高度ICT演習向け<br>eポートフォリオシステムの開発 
+<br>
+# 高度ICT演習向け<br>eポートフォリオシステムの開発 
 <style>
   #meibo{
     margin-top: 10px;
   }
 </style>
 
-<table id="meibo">
+<br><br>
+
+<table id="meibo" style="margin-left: 6.5em">
 <tr>
 <td width=35%>B4</td>
 <td width=35%>B3</td>
@@ -67,16 +70,16 @@
 - 授業の分類と本学の現状
 - 本学のPBLにおける問題
 - 一般的なeポートフォリオシステム
-- 前期の活動
- - 要件収集
- - ヒアリング
- - ペーパープロトタイプ
- - 機能の洗い出し
+-要求開発
+  - ヒアリング
+  - 機能の洗い出し
+  - プロトタイピング
+
 </div>
 <div style="width:50%; margin:0em e3m;">
-- 後期の活動
- - 実装範囲の設定
- - 開発体制
+- 実装
+  - 開発範囲の設定
+  - 開発体制について
 - スケジュール
 - 学び
 </div>
@@ -121,7 +124,7 @@
 </br>
 <center>&#11015;</center>
 </br>
-<p>これらの解決策としてeポートフォリオシステムを利用できる</p>
+<p>これらの問題はeポートフォリオシステムで解決することができる</p>
 
 !SLIDE
 
@@ -129,7 +132,7 @@
 - <font color = #ff0000>学習者個人に重きを置いた</font>、学習活動を可視化する仕組み
 - <font color = #ff0000>授業に合わせて構築する必要がある</font>
 - 大学によっては全学的に導入している例もある
-- 既存のeポートフォリオシステムとして、Mahara、sakaiなどがある
+- 既存のeポートフォリオシステムとして、Mahara、Sakaiなどがある
 <font size="3">引用文献:小川賀代，小村道昭，大学力を高めるeポートフォリオ〜エビデンスに基づく教育の質保証を目指して〜，2012</font>
 
 !SLIDE
@@ -143,7 +146,7 @@
 <!-- -->
 
 !SLIDE
-## 教育系演習の概要
+## 本プロジェクトでの開発工程
 -要求開発
   - ヒアリング(2回)
   - 機能の洗い出し
@@ -151,24 +154,22 @@
 - 実装
   - 開発範囲の設定
   - 使用技術の選定
-- 開発体制
 
 !SLIDE
 ## 調査
 - 既存のeポートフォリオシステムを比較した
 
-<!-- MaharaとSakaiの比較画像 -->
 <table id="solid" width="100%" align="center" >
 <tr>
 	<th></th>
-	<th>成果物の共有のしやすさ</th>
-	<th>(教育光学的)<br>振り返り</th>
-	<th>UI(操作性)</th>
-	<th>eポートフォリオ公開のしやすさ</th>
+	<th>成果物の共有<br>のしやすさ</th>
+	<th>(教育工学的)<br>振り返り</th>
+	<th>UI<br>(操作性)</th>
+	<th>公開<br>eポートフォリオ\*</th>
 	<th>カスタマイズ性</th>
 </tr>
 <tr align="center">
-<td><img src="img/SakaiLogolg.jpg" width="50" height="38"></td>
+<td><img src="img/SakaiLogolg.jpg" width="60"></td>
 	<td>○</td>
 	<td>○</td>
 	<td>×</td>
@@ -176,7 +177,7 @@
 	<td><font color = #ff0000>×</font></td>
 </tr>
 <tr align="center">
-	<td><img src="img/Mahara_logo.png" width="60" height="38"></td>
+	<td><img src="img/Mahara_logo.png" width="70"></td>
 	<td>○</td>
 	<td>×</td>
 	<td>○</td>
@@ -186,11 +187,10 @@
 </table>
 <br>
 <font style="font-size: 60%; margin-top: 1.5em;">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」</br>(法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
-</br></br></br>
+</br></br>
 - 既存のeポートフォリオシステムは使用せずに開発を行う
   - 要求を引き出しながら<font color = #ff0000>適応的に開発する必要がある</font>ため
-<p style="font-size:75%;margin-left:10px;　">\*公開ポートフォリオ：</p>
-<!-- TODO公開→公開eポートフォリオ -->
+<p style="font-size:75%;margin-left:10px;　">\*公開eポートフォリオ：学外にも公開されるポートフォリオ</p>
 
 !SLIDE
 
@@ -198,33 +198,8 @@
 - 高度ICTコースのコース長へeポートフォリオシステムについて</br>ヒアリングを行った
   - <font color = #ff0000>PDCAサイクルを回せるように</font>して欲しい
   - 動くシステムを定期的に見せて欲しい
-
-!SLIDE
-
-## プロトタイピング１回目
-- ホワイトボードを使い、メンバー間で話し合いながら作成
-- iPadで写真を取り、リンクをつけた
-<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
-
-!SLIDE
-
-## 第2回ヒアリング
-- ７月にICTコース長にヒアリング
-  - 学生はどのように使うのか
-  - 先生はどのように使うのか
-  - どのような機能が必要か
-
-!SLIDE
-
-## プロトタイピング２回目
-- 実装するシステムをメンバー間で共有するために画面設計を行った
-<img style="width:100%;" src="img/goal.png">
-
-!SLIDE
-
-## 洗い出された機能一覧
+<br>
+### 洗い出された機能一覧
 - ゴール管理機能
 - 日誌投稿機能
 - 成果物管理機能
@@ -234,32 +209,48 @@
 
 !SLIDE
 
-## PDCAサイクルと機能の対応
-<img src="img/portbacker.png" style="width:53%;height:53%;" align = "right">
-### Plan  
-  <p style="margin-left: 20pt"><span class="test"> ゴール管理機能</span></p>
-### Do
-  <p style="margin-left: 20pt">
-  <span class="test"> 日誌投稿機能</span>
-  </br>
-  <span class="test"> 成果物管理機能</span>
-  </p>
-### Check
-  <p style="margin-left: 20pt">
-  <span class="test"> eポートフォリオ作成機能</span></p>
-### Action
-  <p style="margin-left: 20pt">
-  <span class="test"> フィードバック機能</span>
-  </p>
+## プロトタイピング１回目
+- ホワイトボードを使い、<font color = #ff0000>メンバー間で話し合いながら</font>作成
+- iPadのPoPソフトを使ってデモができるようにした
+<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
+
+!SLIDE
+
+## 第2回ヒアリング
+- ７月にICTコース長にヒアリング
+  - 機能のイメージがわかないので利用例が欲しい
+  - 画面設計レベルでプロトタイピングして欲しい
+  - 新しい機能の要求はなく、機能の具体化をして欲しい
+!SLIDE
+
+## プロトタイピング２回目
+- ヒアリングより再度プロトタイピングを行った
+- 実装するシステムをメンバー間で共有するために画面設計を行った
+<img style="width:100%;" src="img/goal.png">
+
+!SLIDE
+
+## 洗い出された機能一覧（再掲）
+- ゴール管理機能
+- 日誌投稿機能
+- 成果物管理機能
+- eポートフォリオ作成機能
+- フィードバック機能
+- グループ管理機能
 
 !SLIDE
 ## ゴール管理機能
 - 学習者が<font color = #ff0000>学習目標をたてて</font>、目標達成までの過程を可視化する機能
  - 長期的なゴールが入力できる
- - ゴールの達成度をバーンアップチャートで表示する
-
- <img src="img/screendiagram/goalrogo-03.png" style="width:40%;height:40%;float:left">
+ - ゴールの達成度をバーンアップチャート\*で表示する
+<tr>
+ <img src="img/screendiagram/goalrogo-03.png" style="width:55%;height:55%;float:left;border:solid thin;">
+</tr>
+<tr>
  <p style="font-size:75%;margin-left:40px;margin-top:50px"><b>\*ゴールの数が増減した場合でも進捗状況が判断しやすい</font></p>
+</tr>
 
 !SLIDE
 ## 日誌投稿機能
@@ -267,36 +258,30 @@
  - 短い文章で、システムに蓄積できる
  - ゴールと日誌の関連付けがされる
 
- <img src="img/screendiagram/personalrogo-01.png" style="width:38%;height:38%;">
+ <img src="img/screendiagram/personalrogo-01.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 成果物管理機能
-- 活動によって生成された成果物をシステムに蓄積する
+- 学習活動によって作成した成果物をシステムに蓄積する
  - システムへPDFやソースコードのアップロードなどが行える
- - WebDAV機能で、ファイルソフトを使ってアップロードできる
-   <img src="img/d&dImage.png" style="width:72%;height:72%;">
+ - WebDAV機能で、ファイラーを使ってアップロードできる
+   <img src="img/d&dImage.png" style="width:72%;height:72%;border:solid thin;">
 
 !SLIDE
 ## eポートフォリオ作成機能
-- <font color = #ff0000>行ってきた活動を振り返り</font>、ひとつの形式にまとめる機能
+- <font color = #ff0000>学習活動を振り返り</font>、ひとつの形式にまとめる機能
  - ゴール、日誌、成果物からそれぞれ載せることができる
- - エクスポートすることができる
- - 学外の人向けにeポートフォリオを作成することができる
+ - PDFを作成することができる
+ - 学外の人向けにeポートフォリオを公開することができる
  
-  <img src="img/screendiagram/portfoliologo-02.png" style="width:35%;height:35%;">
+  <img src="img/screendiagram/portfoliologo-02.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## フィードバック機能
-- 教員が、学習者の学習状況を把握し、<font color = #ff0000>指導するのを支援する</font>機能
- - 学習者が作成したeポートフォリオへコメントをする
- <img src="img/feedback.png" style="width:45%;height:45%;">
+- 学習者が作成したeポートフォリオに対してコメントを記入する
+ -想定する用途としては、教員が学習者の学習状況を把握し、<font color = #ff0000></br>指導に用いる</font>
 
-<!-- -->
-<!-- ## システム全体図 -->
-<!-- <center> -->
-<!-- <img src="img/portbacker.png" style="width:53%;height:53%;"> -->
-<!-- </center> -->
-<!--  -->
+ <img src="img/feedback.png" style="width:45%;height:45%;border:solid thin;">
 
 !SLIDE
 ## 実装範囲の設定
@@ -308,9 +293,10 @@
 
 !SLIDE
 
-## ゴール管理機能
+## 現状(1/3)
+
+### ゴール管理機能
 <ul>
-<li> 実装予定だった機能
 <ul>
 <li class="li-ballot-checked">長期的なゴールの入力</li> 
 <li class="li-ballot-checked"> 短期的なゴールの入力</li>
@@ -319,10 +305,10 @@
 </ul>
 </ul>
 
-## 日誌投稿機能
+
+### 日誌投稿機能
 
 <ul>
-<li> 実装予定だった機能
 <ul>
 <li class="li-ballot-checked">日誌の投稿</li> 
 <li class="li-ballot-checked"> 短期的なゴールとの結びつけ</li>
@@ -333,9 +319,10 @@
 
 !SLIDE
 
-## 成果物管理機能
+## 現状(2/3)
+
+### 成果物管理機能
 <ul>
-<li> 実装予定だった機能
 <ul>
 <li class="li-ballot-checked">Webからのファイルアップロード</li> 
 <li class="li-ballot">WebDAV機能によるアップロード</li>
@@ -343,10 +330,8 @@
 </ul>
 
 </br>
-
-## eポートフォリオ作成機能
+### eポートフォリオ作成機能
 <ul>
-<li> 実装予定だった機能
 <ul>
 <li class="li-ballot-checked">成果物管理のみ載せる</li> 
 <li class="li-ballot">ゴール、日誌から載せる</li>
@@ -358,7 +343,9 @@
 
 !SLIDE
 
-## グループ管理機能
+## 現状(3/3)
+
+### グループ管理機能
 <ul>
 <li class="li-ballot">グループ管理機能は実装しなかった
 <ul>
@@ -368,42 +355,47 @@
 </ul>
 
 </br>
-## フィードバック機能
+### フィードバック機能
 <ul>
+</li>
 <li class="li-ballot">フィードバック機能は実装できなかった
 <ul>
 <li>LDAP認証ができておらず他の人との連携ができなかった</li>
-</ul>
+<li>
+コメント機能は実装中
 </li>
+</ul>
 </ul>
 
 !SLIDE
 
 ## 開発体制
 <center>
-<img src="img/kaihatsutaisei2.png" style="width:55%;height:55%;">
+<img src="img/kaihatsutaisei.png" style="width:50%;height:50%;">
 </center>
 
 !SLIDE
 
 ## 全体のスケジュール
-<img style="width:75%" src="img/sukesuke.png" align = "center">
+<img style="width:95%" src="img/sukesuke.png" align = "center">
 
 !SLIDE
 
 ## 学び
 <ul>
-<li>演習を通して自分の知らなかった技術を知ることができたので</br>視野が広がった</br>(B4・情報デザインコース)
-<li>チケット駆動開発とGitの仕組みについて知れた</br>(B2・情報システムコース)
-<li>ソフトウェア開発の一連の流れを体験することができた</br>(B2・情報システムコース)
-<li>ペーパープロトタイピングの手法などデザインの技術を</br>取り入れることができた</br>(B4・情報システムコース)
+<li>演習を通して自分の知らなかった技術を知ることができたので</br><font color = #ff0000>視野が広がった</font></br>(B4・情報デザインコース)
+<li><font color = #ff0000>チケット駆動開発</font>とGitの仕組みについて知れた</br>(B2・情報システムコース)
+<li>ソフトウェア開発の<font color = #ff0000>一連の流れを体験する</font>ことができた</br>(B2・情報システムコース)
+<li>ペーパープロトタイピングの手法など<font color = #ff0000>デザインの技術を</br>取り入れることができた</font></br>(B4・情報システムコース)
 </ul>
 
 !SLIDE
 
 ## まとめ
 - 受動的学習と能動的学習の説明
-- 能動的学習の支援がされていない
-- 高度ICT演習の学習および指導を支援
-- eポートフォリオシステムを開発
+- eポートフォリオによる能動的学習の支援
+- 既存のeポートフォリオシステムについて説明した
+- PDCAサイクルを実現するeポートフォリオシステムを実現した
+- 実装範囲を定めてeポートフォリオシステムを開発
+- 開発体制や学びについて説明した
 <!--結論だけを書く-->
