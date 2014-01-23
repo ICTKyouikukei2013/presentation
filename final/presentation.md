@@ -168,7 +168,7 @@
 	<th>カスタマイズ性</th>
 </tr>
 <tr align="center">
-<td>Sakai</td>
+<td><img src="img/SakaiLogolg.jpg" width="50" height="38"></td>
 	<td>○</td>
 	<td>○</td>
 	<td>×</td>
@@ -176,7 +176,7 @@
 	<td><font color = #ff0000>×</font></td>
 </tr>
 <tr align="center">
-	<td>Mahara</td>
+	<td><img src="img/Mahara_logo.png" width="60" height="38"></td>
 	<td>○</td>
 	<td>×</td>
 	<td>○</td>
