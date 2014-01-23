@@ -158,7 +158,7 @@
 - 既存のeポートフォリオシステムを比較した
 
 <!-- MaharaとSakaiの比較画像 -->
-<table width="100%" align="center">
+<table id="solid" width="100%" align="center" >
 <tr>
 	<th></th>
 	<th>成果物の共有のしやすさ</th>

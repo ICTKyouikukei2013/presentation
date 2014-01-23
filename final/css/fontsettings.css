@@ -105,9 +105,6 @@ p .test{
 	margin-top:-10px;
 }
 
-table,td,tr{
+#solid td,th{
     border: solid thin;
-}
-th{
-   border: solid thin; font-size: 12pt;
 }
