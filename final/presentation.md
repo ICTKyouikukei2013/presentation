@@ -64,8 +64,8 @@
 ## 目次
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em e3m;">
-- 高度ICT演習について
-- 未来大のPBLにおける問題
+- 授業の分類と本学の現状
+- 本学のPBLにおける問題
 - 一般的なeポートフォリオシステム
 - 前期の活動
  - 要件収集
@@ -83,35 +83,26 @@
 </div>
 
 !SLIDE
-## 背景(1/2)
-<img style="width:320px; float:right; margin:0 20px 0 20px;"  src="img/DSCF0528.JPG" align = "right" >
-- 公立はこだて未来大学(以下、未来大)にはPBL\*型の授業として<font color = #ff0000>高度ICT演習</font>がある
- - <font color = #ff0000>単位が出ない中</font>、学生が自主的に</br>活動を行う
- - ソフトウェア開発のプロセスを経験し、基礎となる知識やスキルを習得する
-</br></br>
-<p style="font-size:63%;margin-left:10px;">\*PBL: Project/Problem Based Learningの略。問題定義から解決までを学習者が主体的に行う学習方法。</p>
-
-!SLIDE
-## 背景(2/2)
+## 背景
 
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em e3m;">
-### 受動的な学習(例: 座学)
+<p> <b>受動的な学習(例: 座学)</b></p>
 * 座学の授業で教師による</br>一方的な知識伝達
-* 未来大ではMoodle\*を導入</br>している
+* 本学ではMoodle\*で支援</br>されている
 </div>
 <div style="width:50%; margin:0em e3m;">
 
-### 能動的な学習(例: PBL)
+<p> <b>能動的な学習(例: 高度ICT演習)</b></p>
 * 学習者が自主的に問題設定し、</br>活動する
-* 未来大のPBLには学習を支援する</br>システムが無い
+* 本学のPBLには学習を支援する</br>システムが無い
 </div>
 </div>
 </div>
 </div>
 <div style="display:-webkit-box;display:-moz-box;">
 <div style="width:50%; margin:0em 1em;">
-<img src="img/lesson.jpg" style="width:70%;height:70%;">
+<img src="img/lecture.jpg" style="width:70%;height:70%;">
 </div>
 <div style="width:50%; margin:0em 1em;">
 <img src="img/PBL.jpg" style="width:70%;height:70%;">
@@ -152,11 +143,11 @@
 <!-- -->
 
 !SLIDE
-## 活動全体の概要
+## 教育系演習の概要
 -要求開発
   - ヒアリング(2回)
   - 機能の洗い出し
-  - プロトタイプ作成(2回)
+  - プロトタイピング(2回)
 - 実装
   - 開発範囲の設定
   - 使用技術の選定
@@ -210,7 +201,7 @@
 
 !SLIDE
 
-## ペーパープロトタイプ１回目
+## プロトタイピング１回目
 - ホワイトボードを使い、メンバー間で話し合いながら作成
 - iPadで写真を取り、リンクをつけた
 <img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
@@ -227,7 +218,7 @@
 
 !SLIDE
 
-## ペーパープロトタイプ２回目
+## プロトタイピング２回目
 - 実装するシステムをメンバー間で共有するために画面設計を行った
 <img style="width:100%;" src="img/goal.png">
 
