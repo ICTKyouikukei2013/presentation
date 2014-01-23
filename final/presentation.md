@@ -201,29 +201,6 @@
 
 !SLIDE
 
-## プロトタイピング１回目
-- ホワイトボードを使い、メンバー間で話し合いながら作成
-- iPadで写真を取り、リンクをつけた
-<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
-<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
-
-!SLIDE
-
-## 第2回ヒアリング
-- ７月にICTコース長にヒアリング
-  - 学生はどのように使うのか
-  - 先生はどのように使うのか
-  - どのような機能が必要か
-
-!SLIDE
-
-## プロトタイピング２回目
-- 実装するシステムをメンバー間で共有するために画面設計を行った
-<img style="width:100%;" src="img/goal.png">
-
-!SLIDE
-
 ## 洗い出された機能一覧
 - ゴール管理機能
 - 日誌投稿機能
@@ -251,6 +228,37 @@
   <p style="margin-left: 20pt">
   <span class="test"> フィードバック機能</span>
   </p>
+
+!SLIDE
+
+## プロトタイピング１回目
+- ホワイトボードを使い、メンバー間で話し合いながら作成
+- iPadで写真を取り、リンクをつけた
+<img style="width:30%;" src="img/IMG_0042.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0043.JPG" align = "center">
+<img style="width:30%;" src="img/IMG_0045.JPG" align = "center">
+
+!SLIDE
+
+## 第2回ヒアリング
+- ７月にICTコース長にヒアリング
+  - 学生はどのように使うのか
+  - 先生はどのように使うのか
+  - どのような機能が必要か
+
+!SLIDE
+
+## プロトタイピング２回目
+- 実装するシステムをメンバー間で共有するために画面設計を行った
+<img style="width:100%;" src="img/goal.png">
+
+## 機能一覧(再掲)
+- ゴール管理機能
+- 日誌投稿機能
+- 成果物管理機能
+- eポートフォリオ作成機能
+- フィードバック機能
+- グループ管理機能
 
 !SLIDE
 ## ゴール管理機能
