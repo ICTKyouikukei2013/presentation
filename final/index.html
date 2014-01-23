@@ -202,9 +202,9 @@
                     cur_typing_string[:] = []
                     if kc == 13:  # enter
                         hashchange(s)
-                    elif 37 <= kc <= 40:  # arrow keys
+                    elif (37 <= kc <= 40) or (33 <= kc <= 34):  # arrow keys or page-up or page-down
                         if getCurMode() == "p":
-                            move_page(-1 if kc in (37, 38) else 1)
+                            move_page(-1 if kc in (37, 38, 33) else 1)
                     elif kc == 9:  # Tab
                         switchToMapMode()
                     elif kc == 27:  # Esc
