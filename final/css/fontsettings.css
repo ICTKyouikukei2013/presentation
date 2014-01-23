@@ -104,3 +104,10 @@ p.listing-indent {
 p .test{
 	margin-top:-10px;
 }
+
+table,td,tr{
+    border: solid thin;
+}
+th{
+   border: solid thin; font-size: 12pt;
+}

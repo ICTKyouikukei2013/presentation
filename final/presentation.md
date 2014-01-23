@@ -166,8 +166,34 @@
 ## 調査
 - 既存のeポートフォリオシステムを比較した
 
-<img style="width:100%;" src="img/hikaku_1.png"><br>
-
+<!-- MaharaとSakaiの比較画像 -->
+<table width="100%" align="center">
+<tr>
+	<th></th>
+	<th>成果物の共有のしやすさ</th>
+	<th>(教育光学的)<br>振り返り</th>
+	<th>UI(操作性)</th>
+	<th>eポートフォリオ公開のしやすさ</th>
+	<th>カスタマイズ性</th>
+</tr>
+<tr align="center">
+<td>Sakai</td>
+	<td>○</td>
+	<td>○</td>
+	<td>×</td>
+	<td>×</td>
+	<td><font color = #ff0000>×</font></td>
+</tr>
+<tr align="center">
+	<td>Mahara</td>
+	<td>○</td>
+	<td>×</td>
+	<td>○</td>
+	<td>○</td>
+	<td><font color = #ff0000>×</font></td>
+</tr>
+</table>
+<br>
 <font style="font-size: 60%; margin-top: 1.5em;">引用文献:宮崎誠「eポートフォリオシステム評価 - Mahara vs Sakai OSP -」</br>(法政大学情報メディア教育研究センター研究報告 Vol.25 特別号 2011年) </font>
 </br></br></br>
 - 既存のeポートフォリオシステムは使用せずに開発を行う
