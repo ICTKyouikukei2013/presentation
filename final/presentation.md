@@ -282,7 +282,7 @@
 - 学習活動によって作成した成果物をシステムに蓄積する
   - システムへPDFやソースコードのアップロードなどが行える
   - WebDAV機能で、ファイラーを使ってアップロードできる
-<img src="img/d&dImage.png" style="width:72%;height:72%;border:solid thin;">
+<img src="img/d&dImage.png" style="width:55%;height:55%;border:solid thin;">
 
 !SLIDE
 ## eポートフォリオ作成機能
