@@ -6,6 +6,15 @@
 }
 
 !SLIDE
+<br>
+### 発表スライドはWeb上で公開されています 
+
+### 以下のURLにアクセスお願いします
+
+# http://goo.gl/hxEEKn
+
+
+!SLIDE
 
 <center>
 
